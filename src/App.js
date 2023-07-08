@@ -38,14 +38,7 @@ const App = () => {
     <ScrollButton />
     <WindowCall/>
   </div>
-    // <BrowserRouter><OneW/> <Routes>
-    //  <Route Component={OneW}/>
-     
-    
-    //  <Route Component={Profile}/>
-    //  </Routes>
-     
-    //  </BrowserRouter>
+ 
   );
 }
 

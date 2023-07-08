@@ -6,6 +6,11 @@ import reportWebVitals from './reportWebVitals';
 // import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Profile from './Profile/Profile';
+import HeaderandMenu from './src2/HeaderandMenu';
+import Actions from './src2/Actions';
+import Price from './src2/Price';
+import Obslugivaniye from './src2/Obslugivaniye';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +19,10 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/Profile" element={<Profile />} />
+      <Route path="/Contacts" element={<HeaderandMenu />} /> 
+      <Route path="/Actions" element={<Actions />} />
+      <Route path="/Price" element={<Price />} />
+      <Route path="/Obslugivaniye" element={<Obslugivaniye />} />
     </Routes>
   </BrowserRouter>
 );

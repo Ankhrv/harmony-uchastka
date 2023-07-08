@@ -51,13 +51,13 @@ function Stickynavbar() {
                         <a className='aaa' href='#'>Link</a>
                         <a className='aaa' href='#'>Link</a>
                         <a className='aaa' href='#'>Link</a></div> */}
-                      <a href='https://harmonyuchastka.ru/'>Автополив</a>
+                       <a href='https://harmonyuchastka.ru/'>Автополив</a>
                        <Link to="/landshaftnyj-dizajn">Ландшафтный дизайн</Link>
                        <a href='#'>Озеленение и благоустройство</a>
                        <Link to="/Derevja">Растения</Link>
-                       <a href='#'>Прайс-лист</a>
-                       <a href='#'>Консервация и обслуживание</a>
-                       <a href='#'>Новинки сезона</a>
+                       <Link to="/Price">Прайс-лист</Link>
+                       <Link to="/Obslugivaniye">Консервация и обслуживание</Link>
+                       <Link to="/Novinky">Новинки сезона</Link>
 
                        <div><button onClick={myFunction3} className="dropbtn2"><a>О нас</a></button></div>
                          <div ref={Mennuf}className="dropdown-content3">
