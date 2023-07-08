@@ -1,0 +1,329 @@
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Montserrat-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Montserrat;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+.h2{
+    font-size: 45px;
+    font-family: Raleway;
+    font-weight: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    color: rgb(63, 62, 62);
+    margin-top: 80px;
+}
+
+.li, .p{
+    font-family: Raleway;
+    font-size: 18px;
+    padding: 3px 0px;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+  /* БЛОК С ТЕКСТОМ */
+.txt{
+background-color: rgb(30, 122, 122);
+background-color:white;
+width: 652px;
+width: 50%;
+margin-left: 10%;
+margin-top: 0px;
+padding-right: 40px;
+height: 380px;
+/* margin: 25px 25px 25px 25px; */
+color: rgb(63, 62, 62);
+ /* background-color: rgb(108, 90, 90);  */
+
+
+}
+ /* ГЛАВНЫЙ КАРТИНКА*/
+ .Pic22{
+    background-color: aquamarine;
+    background-color:rgb(127, 42, 42);
+    padding-right: 2px;
+    width: 50%;
+    height: 260px;
+  margin-top: 0px;
+  padding-bottom: 60px;
+  background:url(../Str/hh.jpg);
+  background-size:cover;
+  display: flex;
+  justify-content: space-around;
+}
+ .Pic22{margin-right: 10%;
+   }
+
+.Pic{
+background-color: aquamarine;
+background-color:whitesmoke;
+
+width: 200px;
+
+
+
+}
+
+.hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
+ /* margin: 25px; */
+
+ width: 643px;
+ height: 440px;
+}
+ /* ЛИСТ КАРТИНКА*/
+.hh1{
+    width: 25px;
+}
+
+ .Glav0{ /* ГЛАВНЫЙ */
+    
+
+    height: 470px;
+  justify-content: space-between;
+    /* background-color: rgb(21, 20, 20);
+    background-color:rgb(47, 42, 42); */
+    margin-top: 40px;
+    
+}
+
+
+.Glav{ /* ГЛАВНЫЙ ВТОРОЙ*/
+    width: 100%;
+ display: flex;
+    height: 650px;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+}
+@media screen and (max-width: 1600px) {
+    .txt{
+        margin-left: 1%;
+        padding-left: 2px;
+    }
+    .Pic22{
+        margin-right: 1%;
+        
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .h2{
+        margin-left: 1%;
+        padding-left: 2px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+
+.hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
+    /* margin: 25px; */
+
+    width: 100%;
+    height: 320px;
+   }
+
+.h2{
+    margin-left: 1%;
+    font-family: Montserrat;
+    color: rgb(63, 62, 62);
+    font-size: 40px;
+}
+.txt{
+    background-color: rgb(30, 122, 122);
+    background-color:white;
+    /* background-color: rgb(60, 20, 20);  */
+    width: 50%;
+    margin-left: 1%;
+    height: auto;
+    height: 360px;
+    margin-bottom: 0px;
+    /* margin: 25px 25px 25px 25px; */
+    color: rgb(63, 62, 62);
+    padding-right: 10px;
+
+    }
+    .Pic22{
+        background-color: aquamarine;
+        background-color:rgb(127, 42, 42);
+        margin-right: 1%;
+        width: 50%;
+        height: 260px;
+      margin-top: 30px;
+      padding-bottom: 60px;
+      background:url(../Str/hh.jpg);
+      background-size:cover;
+      display: flex;
+      justify-content: space-around;
+    }
+
+        .Glav0{ /* ГЛАВНЫЙ */
+
+            width: 100%;
+               height: 500px;}
+    }
+    @media screen and (max-width: 800px) {
+.h2{font-size: 40px;
+    
+margin-top: 30px;
+}
+        .pic{
+            margin:0;
+        }
+        .txt{
+            background-color: rgb(30, 122, 122);
+            background-color:whitesmoke;
+            color: rgb(63, 62, 62);
+            width: auto;
+            height: auto;
+            /* margin: 25px 25px 25px 25px; */
+            /* background-color: rgb(108, 90, 90);  */
+            }
+
+            .Pic22{
+            background-color: aquamarine;
+            background-color:whitesmoke;
+            width: 100px;
+            }
+
+            .Pic22{
+            width:auto;
+             background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            }
+            .hh1{
+                width: 25px;
+            }
+             .Glav0{
+
+             display: flex;
+                height: auto;
+              flex-direction: column;
+                /* background-color: rgb(21, 20, 20);
+                background-color:rgb(47, 42, 42); */
+                margin:0;
+            }
+
+            .li, .p{
+                font-family: Raleway;
+                font-size: 17px;
+            }
+
+            .Glav{
+                width: 100%;
+             display: flex;
+                height: auto;
+                flex-direction: column;
+        /* background-color: blueviolet; */
+    }
+    .hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
+        /* margin: 25px; */
+
+        width: auto;
+        height: 240px;
+       }}
+
+
+
+       @media screen and (max-width: 800px) {
+.h2{margin-left: 2%;
+    margin-top: 30px;
+    }
+        .pic{
+            margin: 0%;
+        }
+        .txt{
+            background-color: rgb(30, 122, 122);
+            background-color:white;
+            width: auto;
+            height: auto;
+            margin: 0px 0px 25px 0px;
+            margin:0% 2%;
+            /* background-color: rgb(108, 90, 90);  */
+            }
+
+            .Pic22{
+            background-color: aquamarine;
+            background-color:rgb(48, 84, 74);
+            width: 100px;
+            }
+
+            .Pic22{
+            width:auto;
+             /* background-color: blueviolet;   */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            }
+            .hh1{
+                width: 25px;
+            }
+             .Glav0{
+
+             display: flex;
+                height: auto;
+              flex-direction: column;
+                /* background-color: rgb(21, 20, 20);
+                background-color:rgb(47, 42, 42); */
+                margin-top: 0em;
+            }
+
+            .li, .p{
+                font-family: Raleway;
+                font-size: 17px;
+            }
+
+            .Glav{
+                width: 100%;
+             display: flex;
+                height: auto;
+                flex-direction: column;
+        /* background-color: blueviolet; */
+    }
+    .hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
+        /* margin: 25px; */
+
+        width: auto;
+        height: 240px;
+       }}
+       @media screen and (max-width: 780px) {
+    
+.li, .p{
+    
+    font-size: 16px;
+  
+}
+       }
+
+
+       @media screen and (max-width: 650px) {
+        .h2{
+           
+            font-size: 25px;
+    }}
+       @media screen and (max-width: 450px) {
+        .h2{
+            margin-top: 40px;  
+        }
+        
+       }

@@ -1,0 +1,157 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Montserrat-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Montserrat;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+.q111 {
+    /* общий */
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.q1 {
+    /* HU and harmony uchastka */
+    display: flex;
+}
+
+.q01 {
+    /* HU  */
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.q01 a {
+    text-decoration: none;
+    color: rgb(13, 130, 89);
+}
+
+.q2 {
+    /* Harmony Uchastka  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    align-items: flex-start;
+}
+
+.q2 a {
+    text-decoration: none;
+    color: rgb(13, 130, 89);
+}
+
+.q33 {
+    /* telefon  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat;
+    font-style: initial;
+    font-weight: 800;
+     /* padding-left: 10px; */
+    margin-left: 170px;
+    /* background-color: aquamarine; */
+}
+
+.q33 a {
+    text-decoration: none;
+    color: rgb(13, 130, 89);
+    text-align: center;
+}
+
+.q4 {
+    /* выезд и расчет */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 0;
+    padding-left: 50px;
+}
+
+.q4 a {
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+}
+
+.q5 {
+    /* войти */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Raleway;
+    font-style: initial;
+    font-weight: 0;
+    padding-left: 50px;
+    padding-right: 10px;
+
+}
+
+.q5 a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(13, 130, 89);
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+
+.ii1 {
+    /* трубка картинка */
+    width: 13px;
+    height: 13px;
+}
+
+.ii2 {
+    /* whatsup pic */
+    width: 27px;
+    height: 29px;
+}
+
+.ii3 {
+    /* viber pic */
+    width: 23px;
+    height: 23px;
+}
+
+.ii4 {
+    /* telegramm pic */
+    width: 31px;
+    height: 31px;
+}
+@media screen and (max-width: 860px) {
+    .q33 {
+        margin-top:-5px;
+        
+    }
+          
+        }
+        @media screen and (max-width: 440px) {
+            .q33 {
+                margin-top:-5px;
+                
+            }
+            .ii1{
+                font-size: 10px;
+            }
+        }

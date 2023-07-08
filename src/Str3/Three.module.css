@@ -1,0 +1,115 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+
+
+
+
+
+.txt2{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(50, 85, 73); */
+    width: 100%;
+    font-family: Raleway;
+    color: rgb(63, 62, 62);
+    font-size: 45px;
+    font-weight: 0;
+    padding-top: 0px;
+    }
+    
+.txt{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+
+.Glav{
+width: 100%;
+/* background-color: rgb(99, 41, 41); */
+height: 640px;
+}
+
+@media screen and (max-width: 1280px) {
+    .Glav{
+        width: 100%;
+        /* background-color: rgb(99, 41, 41); */
+        height: 333px;
+        }
+
+        
+    .txt2{
+        display: flex;
+        justify-content: center;
+        /* background-color: rgb(50, 85, 73); */
+        width: 100%;
+        font-family: Raleway;
+        color: rgb(63, 62, 62);
+        font-size: 40px;
+        font-weight: 0;
+        padding-top: 20px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+         }  
+
+.txt{
+    width: 100%;      /* background-color: rgb(43, 73, 73); */ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+    
+ 
+    
+    .Glav{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height:585px;
+    }
+
+}
+@media screen and (max-width: 1280px) {
+    .Glav{
+        width: 100%;
+        /* background-color: rgb(99, 41, 41); */
+        height: 570px;
+        }}
+
+@media screen and (max-width: 800px) {
+    .Glav{
+        width: 100%;
+        /* background-color: rgb(99, 41, 41); */
+        height: 1370px;
+        }}
+
+
+    @media screen and (max-width: 650px) {
+    
+    .txt2{
+        display: flex;
+        justify-content: center;
+        /* background-color: rgb(50, 85, 73); */
+        width: 100%;
+        font-family: Raleway;
+        color: rgb(63, 62, 62);
+        font-size: 27px;
+        font-weight: 0;
+        padding-top: 20px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+         }  
+
+         .Glav{
+            width: 100%;
+            /* background-color: rgb(99, 41, 41); */
+            height: 1340px;
+            }}
+    
+

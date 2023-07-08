@@ -1,0 +1,29 @@
+/* главный для мини меню в общем jsx menu*/
+.qw2{
+display: none;
+}
+
+.mmm{/* главный для мини меню */
+position:static;
+z-index: 6;
+width: 100%;
+}
+
+.MenOb1{/* главный для большого меню */
+    position:relative;
+    z-index: 8;
+    }
+   
+@media screen and (max-width: 780px) {
+/* главный для большого меню в общем jsx menu*/
+    .qw{
+    display: none; 
+}
+/* главный для мини меню в общем jsx menu*/
+.qw2{
+    display:flex;
+    position: static;
+    width: 100%;
+    }
+  }
+

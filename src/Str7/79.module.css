@@ -1,0 +1,104 @@
+@font-face {
+	/*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+	src: url(/src/fonts/Montserrat-Regular.ttf);
+	/*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+	font-family: Raleway;
+	/*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+.ii11{
+	width: 12px;
+	margin-right: 15px;
+}
+.ii21{
+	width: 12px;
+margin-right: 10px;
+}
+.firstdiv{/* главный див подвала */
+	
+	
+width: 100%;
+
+height: auto;
+
+	background-color: rgb(23, 84, 62);
+	
+
+}
+.f1div{
+	display: flex;
+	padding-bottom: 40px;
+	justify-content: center;
+	margin: 0% 10%;
+}
+.f2div{/* столбцы */
+width: 100%;
+	/* background-color: aquamarine; */
+	margin: 30px 10px 10px 0px ;
+	
+	color: white;
+	font-weight: 500;
+	font-size: 15px;
+
+}
+.Liclass{
+	
+	/* text-decoration-line:underline; */
+	padding-bottom: 5px;
+  color: #ffffff;
+  /* background-image:
+    repeating-linear-gradient(180deg, transparent, transparent 16px, #ffffff 20px ); */
+	border-bottom: 1px solid #fffefe;
+	font-size: 20px;
+	font-family: Raleway;
+	margin: 15px 0px;
+	/* padding-bottom: -5px; */
+	color: white;
+	font-weight: 500;
+
+
+}
+.Liclass1{
+	font-size: 15px;
+	font-family: Raleway;
+	margin: 8px 0px;
+	color: white;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1600px) {
+.f1div{
+	display: flex;
+	padding-bottom: 40px;
+	justify-content: center;
+	margin: 0% 2.5%;}
+}
+
+@media screen and (max-width: 1280px) {
+	.f1div{
+		display: flex;
+		padding-bottom: 40px;
+		justify-content: center;
+		margin: 0% 2.5%;}
+	}
+@media screen and (max-width: 780px) {
+	.f1div{/* главный див подвала */
+		display: flex;
+		flex-direction: column;
+	width: 100%;
+	height: 750px;
+		margin: 0;
+		background-color: rgb(14, 87, 61);
+	
+	}
+
+	.f2div{/* столбцы */
+		width: 90%;
+			/* background-color: aquamarine; */
+			margin: 0px 0px 0px 2.5% ;
+			color: white;
+			font-weight: 500;
+			font-size: 15px;
+		
+		}
+}

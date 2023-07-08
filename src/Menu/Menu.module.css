@@ -1,0 +1,202 @@
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+.navbar {
+    /* общий меню */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 130, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    
+
+}
+
+ul {
+    /* Убираю маркеры у списка*/
+    list-style: none;
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю отступы. */
+    margin: 0px;
+    /* Убираю еще отступы! */
+    padding: 0px;
+}
+
+ul:after {
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю выравнивание. */
+    float: none;
+    /* content: ' ';
+    clear: both; */
+}
+
+ul.mmenuu>li {
+    /* Задаю выравнивание и позиционирование. */
+    float: left;
+    /* Считаем координаты относительно исходного места*/
+
+
+}
+
+ul.mmenuu>li>a {
+    /* Делаю элементы блочными: */
+    display: block;
+    /* Задаю белый цвет. */
+    color: whitesmoke;
+    /* Задаю отступ 10px. */
+    padding: 14px 20px;
+    /* Убираю форматирование*/
+    text-decoration: none;
+    /* Задаю цвет. */
+}
+
+ul.mmenuu>li>a:hover {
+    /* Задаю цвет при наведении. */
+    background-color: rgb(12, 112, 77);
+    /* color: aqua; */
+}
+
+ul.ssubmenuu {
+    display: none;
+    position: absolute;
+    /* background-color: #a52727; */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-top: 1px solid rgb(12, 112, 77);
+
+    /* Делаю субменю скрытыми. */
+    display: none;
+    /* Цвет — белый. */
+}
+ul.ssubmenuu2 {
+    display: none;
+    position: absolute;
+    /* background-color: #a52727; */
+    min-width: 72px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-top: 1px solid rgb(12, 112, 77);
+
+    /* Делаю субменю скрытыми. */
+    display: none;
+    /* Цвет — белый. */
+
+
+}
+
+ul.ssubmenuu>li {
+    /* Блочное расположение элементов*/
+    display: block;
+}
+ul.ssubmenuu2>li {
+    /* Блочное расположение элементов*/
+    display: block;
+}
+
+
+ul.ssubmenuu>li>a {
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю форматирование*/
+    text-decoration: none;
+    /* Задаю отступ. */
+    padding: 10px;
+    /* Задаю цвет. */
+    color: rgb(63, 62, 62);
+
+    /* Еще цвет. */
+    background-color: rgb(240, 239, 239);
+}
+
+ul.ssubmenuu2>li>a {
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю форматирование*/
+    text-decoration: none;
+    /* Задаю отступ. */
+    padding: 10px;
+    /* Задаю цвет. */
+    color: rgb(63, 62, 62);
+
+    /* Еще цвет. */
+    background-color: rgb(240, 239, 239);
+}
+
+
+
+
+ul.ssubmenuu>li>a:hover {
+    /* Цвет бэкграунда при наведении. */
+    background-color: rgba(13, 130, 89, 1);
+    color: whitesmoke;
+
+    /* Задаю подчеркивание*/
+    text-decoration: none;
+}
+
+ul.ssubmenuu2>li>a:hover {
+    /* Цвет бэкграунда при наведении. */
+    background-color: rgba(13, 130, 89, 1);
+    color: whitesmoke;
+
+    /* Задаю подчеркивание*/
+    text-decoration: none;
+}
+
+
+ul.mmenuu>li:hover>ul.ssubmenuu {
+    /* Делаю элементы блочными. */
+    display: block;
+}
+
+ul.mmenuu>li:hover>ul.ssubmenuu2 {
+    /* Делаю элементы блочными. */
+    display: block;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+
+    .navbar {
+        /* общий меню */
+        display: flex;
+        justify-content: center;
+        background-color: rgb(13, 130, 89);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+    ul.mmenuu>li>a {
+        padding: 16px 15px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .navbar {
+        /* общий меню */
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(13, 130, 89);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    ul.mmenuu>li>a {
+        padding: 16px 7px;
+    }
+
+}

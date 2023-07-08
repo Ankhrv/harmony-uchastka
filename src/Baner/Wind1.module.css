@@ -1,0 +1,185 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+/* общий для текста на банере */
+.te {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .p {  /* Проектирование и монтаж систем автополива в Саратове */
+    margin: 0;
+    margin-top: 66px;
+    color: rgb(193, 251, 225);
+    color: white;
+    font-size: 53px;
+    font-weight: 700;
+    padding: 20px 0px;
+    font-family: Raleway;
+    text-shadow: 1px 1px 2px rgb(21, 11, 13);
+}
+
+.p2 {/* Дизайн, проектирование и монтаж систем автополива участков в Саратове и Саратовской области. */
+    color: rgb(193, 251, 225);
+    color: white;
+    font-size: 21px;
+    font-family: Raleway;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgb(21, 11, 13);
+}
+
+@media screen and (max-width: 1935px) {
+
+    .p {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 20px 0px 0px;
+        color: white;
+        font-size: 49px;
+        padding-top: 80px;
+        font-family: Raleway;
+    }
+
+    .p2 {
+        color: white;
+        font-size: 23px;
+        font-family: Raleway;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 1820px) {
+
+    .p {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 20px 0px 0px;
+        color: white;
+        font-size: 49px;
+        padding-top: 80px;
+        font-family: Raleway;
+    }
+
+    .p2 {
+        color: white;
+        font-size: 23px;
+        font-family: Raleway;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+
+
+    .p {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        font-size: 52px;
+        padding-top: 40px;
+        font-family: Raleway;
+        margin-top: 0px;
+    }
+
+    .p2 {
+        color: rgb(193, 251, 225);
+        color: white;
+        font-size: 23px;
+        font-family: Raleway;
+        font-weight: 500;
+        margin: 10px 0px 40px 20px;
+    }
+}
+@media screen and (max-width: 1600px) {
+
+    .p {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 20px 0px 0px;
+        color: white;
+        font-size: 52px;
+        padding-top: 80px;
+        font-family: Raleway;
+    }
+
+    .p2 {
+        color: white;
+        font-size: 23px;
+        font-family: Raleway;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+
+    .p {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        text-shadow: 1px 1px 2px rgb(21, 11, 13);
+        font-size: 45px;
+        padding-top: 0px;
+        font-family: Raleway;
+        margin-top: 50px;
+        margin-bottom: -10px;
+    }
+
+    .p2 {
+        color: rgb(193, 251, 225);
+        color: white;
+        font-size: 23px;
+        font-family: Raleway;
+        font-weight: 500;
+        margin: 10px 0px 40px 0px;
+    }
+}
+
+@media screen and (max-width: 907px){
+    
+    .p {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        font-size: 42px;
+        padding-top: 40px;
+        font-family: Raleway;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 750px){
+    
+    .p {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        font-size: 32px;
+        padding-top: 50px;
+        font-family: Raleway;
+        margin-top: 0px;
+    }
+    .p2 {
+        color: rgb(193, 251, 225);
+        color: white;
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: 500;
+        margin: 0px 0px 40px 0px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .p2 {
+        color: rgb(193, 251, 225);
+        color: white;
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: 500;
+        margin: 5px 0px 30px 0px;
+    }
+}

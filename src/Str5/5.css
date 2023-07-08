@@ -1,0 +1,96 @@
+@font-face {
+	/*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+	src: url(/src/fonts/Raleway-Regular00.ttf);
+	/*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+	font-family: Raleway;
+	/*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+/* Нечетные строки */
+#tr {
+	margin: 0;
+}
+
+.PP {
+	text-align: center;
+	width: 100%;
+	background-color: rgb(43, 73, 73);
+	background-color: white;
+	font-size: 43px;
+	font-family: Raleway;
+	color: rgb(63, 62, 62);
+	display: flex;
+	justify-content: center;
+	font-weight: 300;
+	margin: 35px 0px 25px 0px;
+	padding-bottom: 0px;
+}
+
+#table thead {
+	background-color: rgb(13, 130, 89);
+}
+
+#table {
+	color: white;
+	margin: 0px 10.5%;
+}
+
+#table tbody tr:nth-child(odd) {
+	background-color: white;
+	color: rgb(46, 46, 46);
+}
+
+/* Четные строки */
+#table tbody tr:nth-child(even) {
+	background-color: whitesmoke;
+	color: rgb(46, 46, 46);
+}
+
+.GG {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	font-family: Raleway;
+}
+
+@media screen and (max-width: 1600px) {
+	#table {
+		color: white;
+		margin: 0px 2.5%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#table {
+		color: white;
+		margin: 0px 2.5%;
+	}
+
+	#table {
+
+		font-size: 18px;
+
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+	.PP {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#table {
+		color: white;
+		margin: 0px 2.5%;
+	}
+
+	#table {
+
+		font-size: 13px;
+
+	}
+
+}

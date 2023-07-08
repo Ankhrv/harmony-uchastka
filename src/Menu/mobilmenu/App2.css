@@ -1,0 +1,138 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Montserrat-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Montserrat;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+.dropbtn{ 
+    padding: 0px;
+    border: none;
+    background-color: rgb(13, 130, 89);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.dropbtn1, .dropbtn2 {
+    width: 100%;
+    text-align: start;
+    padding: 0px;
+    border: none;
+    background-color: rgb(13, 130, 89);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(64, 89, 80);
+} */
+.dropdown, .mmm {
+    /* background-color: rgb(13, 130, 89); */
+    width: 100%;  
+
+   
+    
+}
+
+.kn{
+    background-color: rgb(13, 130, 89); 
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke; 
+    padding: 4px 4px 4px 0px;
+    font-family:Montserrat;
+    font-weight: 1000;
+    
+   
+}
+
+.picmen{
+    width: 20px;
+    margin-right: 25px;
+}
+
+.knn{
+    padding: 12px 16px;    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(13, 130, 89); 
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 14px;
+    padding: 5px 0px;
+    border-top: 1px solid rgba(248, 248, 248, 0.1);  
+}
+
+.dropdown-content3 {
+    
+    display: none;
+    position:relative;
+    background-color: rgba(57, 79, 71, 0.1); 
+   width: 99%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 2;
+    font-size: 14px;
+    padding: 5px 0px;
+    border: 1px solid rgb(12, 112, 77);
+    border-radius:0px 10px 10px 0px;
+        
+    
+    
+    
+  
+}
+.dropdown-content3 a {
+    margin: 2px 0px;
+    color: whitesmoke;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block; width: 88%;
+    transform: skew(-13deg);
+    
+    
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 16px 16px;
+   ;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: rgb(12, 112, 77);
+}
+.aaa{
+    background-color: rgb(15, 148, 101);
+    border-radius: 10px;
+}
+
+.show {display: block;}
+@media screen and (max-width: 780px) {
+
+    .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 9px 16px;
+       ;
+        text-decoration: none;
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 16px 16px;
+       ;
+        text-decoration: none;
+        display: block;
+    }
+}

@@ -1,0 +1,200 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+.hh {
+    /*   общий для win1 win2  */
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+.k {
+    /* baner */
+    background: url(dom22.jpg);
+    /*ставим картинку на фон, пишем относительеный путь*/
+    background-size: cover;
+    /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+    width: 100%;
+    /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+    height: 560px;
+}
+
+
+/* .l4 {
+    display: flex;
+}
+
+.str {
+    display: flex;
+    align-items: flex-start;
+
+
+} */
+
+
+
+@media screen and (max-width: 1835px) {
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1690px) {
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 1%;
+        margin-right: 1%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 1%;
+        margin-right: 1%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .k {
+        /* baner */
+        background: url(dom22.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .k {
+        /* baner */
+        background: url(dom22.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 535px;
+    }
+
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .k {
+        /* baner */
+        background: url(dom22.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 1140px;
+    }
+
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 540px) {
+
+    .k {
+        /* baner */
+        background: url(dom22.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 1200px;
+    }
+
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    .k {
+        /* baner */
+        background: url(dom22.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 1120px;
+    }
+
+    .hh {
+        /*   общий для win1 win2  */
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 440px) {
+    .k {
+        /* baner */
+        background: url(dom22.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 1100px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .k {
+        /* baner */
+        background: url(dom22.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 1090px;
+    }
+
+}

@@ -1,0 +1,181 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+
+}
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Montserrat-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Montserrat;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+.ui{
+    font-family: Montserrat;
+    color: white;
+    font-size: 17px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+
+}
+/* ДЛя формы звонка */
+.ui2{
+    font-family: Montserrat;
+    color: rgb(59, 52, 52);
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+.ui3{
+    font-family: Montserrat;
+    color: rgb(13, 130, 89);
+    font-size: 18px;
+    font-weight:900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+    border: 0;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.Tt2{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(25, 24, 24);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.knop44{
+    background-color: rgb(13, 130, 89);
+   border: 0;
+   border-radius: 5px;
+    height: 32px;
+    width: 100px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin: 12px 0px 0px 0px;
+    margin-bottom: 10px;
+    padding: 0px 0px;
+    cursor: pointer;
+    /* border-radius: 1% 1% 1% 1%; */
+}
+.knop44:hover{
+    /* background-color: rgb(29, 92, 73); */
+    color: aqua;
+}
+
+
+
+
+
+form{
+    width:50%;
+    padding:0px 0px;
+    font-family: Raleway;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .te{width: auto;
+        
+    
+    }
+    .GL{width: 50%;margin-right: 10.5%;
+        /* background-color: aquamarine; */
+      
+    }
+    .Tt{
+        font-size: 10px;
+        font-weight: 500;
+        color: white;
+        margin-top: 0px; 
+    }
+
+ 
+    input{
+        margin: 5px 0px 0px 0px;
+        padding: 8px 10px;
+        font-size: 15px;
+        font-family: Raleway;
+        border-radius: 5px;
+        border: solid 1px rgb(0, 0, 0, 0.2);
+        outline:0;
+    }
+
+   
+    textarea{
+        margin: 5px 0px 0px 0px;
+        padding: 8px 10px;
+        height: 130px;
+        font-size: 15px;
+        font-family: Raleway;
+        border-radius: 5px;
+        border: solid 1px rgb(0, 0, 0, 0.2);
+        outline:0;  
+    }
+    .knop4{
+        background-color: rgb(13, 130, 89);
+       border: 0;
+       border-radius: 5px;
+        height: 32px;
+        width: 100px;
+        color: white;
+        font-family: Montserrat;
+        font-size: 15px;
+        margin: 5px 0px;
+        margin-bottom: 10px;
+        padding: 0px 0px;
+        cursor: pointer;
+        /* border-radius: 1% 1% 1% 1%; */
+    }
+    .knop4:hover{
+        background-color: rgb(29, 92, 73);
+    
+    }
+    @media screen and (max-width: 1600px) {
+        form{
+          
+            width:100%;
+            margin-right:0% ;
+            padding:0px 0px;
+            font-family: Raleway;
+            
+            
+            height:100%;
+            display: flex;
+            flex-direction: column;
+            
+            }
+            .GL{width: 50%;margin-right: 2.5%;}
+    }
+    @media screen and (max-width: 650px) {
+        .GL{width: 100%;
+            /* background-color: aquamarine; */
+          
+        }
+        form{
+            margin:0px 2.5% ;
+        }
+            .ui{
+           
+            padding-top:0px;
+         
+        
+        }  
+
+        .knop4{
+          font-size: 14px;
+            margin-top: 10px;
+           
+    
+        }
+      
+    }

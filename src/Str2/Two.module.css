@@ -1,0 +1,363 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+/* эффект наложенного изображения */
+
+* {box-sizing: border-box;}
+
+.Img11, .Img13, .Img14, .Img15, .Img16, .Img17, .Img18, .Img12 {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: flex;
+  text-align: center;
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Img11:hover .overlay {
+  opacity: 1;
+ 
+}
+.Img12:hover .overlay {
+    opacity: 1;
+  }
+  .Img13:hover .overlay {
+    opacity: 1;
+  }
+  .Img14:hover .overlay {
+    opacity: 1;
+  }
+  .Img15:hover .overlay {
+    opacity: 1;
+  }
+  .Img16:hover .overlay {
+    opacity: 1;
+  }
+  .Img17:hover .overlay {
+    opacity: 1;
+  }
+  .Img18:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+/* первый ряд фото */
+.Imgv{
+width: 100%;
+/* background-color: rgb(77, 96, 96); */
+display: flex;
+justify-content: space-between;
+color: aliceblue;
+height: 370px;
+height: auto;
+}
+/* второй ряд фото */
+.Imgv2{
+width: 100%;
+/* background-color: rgb(8, 15, 15); */
+display: flex;
+justify-content: center;
+color: aliceblue;
+height: 370px;
+height: auto;
+justify-content: space-between;
+margin-top: 8px;
+
+}
+/* заголовок в h2 */
+.Zagv{
+display: flex;
+justify-content: center;
+/* background-color: rgb(50, 85, 73); */
+width: 100%;
+font-family: Raleway;
+color: rgb(63, 62, 62);
+font-size: 45px;
+font-weight: 0;
+ }
+/* главный */
+.Glavv{
+    width: 100%;
+    height: 966px;
+    background-color: whitesmoke;
+}
+.Glavv2{/* главный по рядам фото */
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+}
+/*контейнеры для фото */
+.Img11, .Img12, .Img13, .Img14, .Img15, .Img16,.Img17, .Img18{
+    max-width: 495px;
+    height:366px ;
+}
+.Img11:hover{
+    background-color: black;
+}
+.Img12:hover{
+    background-color: black;
+}
+.Img13:hover{
+    background-color: black;
+}
+.Img14:hover{
+    background:url(./1006.jpg)
+}
+.Img15:hover{
+    background-color: black;
+}
+.Img16:hover{
+    background-color: black;
+}
+.Img17:hover{
+    background:url(./44.jpg)
+}
+.Img18:hover{
+    background-color: black;
+}
+.Img11, .Img12, .Img13, .Img15, .Img16,.Img17{
+   border-right: 1px solid white;
+}
+/*контейнер для фото */
+.Img121{
+    max-width: 100%;
+    height:366px;
+    /* border: 2.5px solid white; */
+}
+
+
+@media screen and (max-width: 1600px) {
+    .Img11, .Img12, .Img13, .Img14, .Img15, .Img16,.Img17, .Img18{
+        max-width: 495px;
+        height:306px ;
+    }
+    /*контейнер для фото */
+    .Img121{
+        max-width: 100%;
+        height:306px;
+        /* border-right: 1px solid white; */
+    }
+    .Glavv{
+        width: 100%;
+        height: 845px;
+        background-color: whitesmoke;
+    }
+    .Zagvh2{margin-top: 50px;}
+    .Imgv2{
+    margin-top: 1px;}
+}
+
+
+@media screen and (max-width: 1280px) {
+    .Glavv{
+        width: 100%;
+        height: 720px;
+        background-color: whitesmoke;
+    }
+/* заголовок в h2 */
+.Zagv{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(50, 85, 73); */
+    width: 100%;
+    font-family: Raleway;
+    color: rgb(63, 62, 62);
+    font-size: 40px;
+    font-weight: 0;
+    margin-top: 0px;
+    margin-bottom: -20px;
+     }
+
+.Zagvh2{
+padding-top: 45px;
+padding-bottom: -3px;
+}
+    /*контейнеры для фото */
+.Img11, .Img12, .Img13, .Img14, .Img15, .Img16,.Img17, .Img18{
+    max-width: 495px;
+    height:240px ;
+}
+/*контейнер для фото */
+.Img121{
+    max-width: 100%;
+    height:240px;
+}
+.Imgv{
+    width: 100%;
+    /* background-color: rgb(77, 96, 96); */
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    color: aliceblue;
+    height: auto;
+    }
+    /* второй ряд фото */
+    .Imgv2{
+    width: 100%;
+    /* background-color: rgb(8, 15, 15); */
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    height: auto;
+    justify-content: space-between;
+
+    }
+    /* заголовок в h2 */
+.Zagv{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(50, 85, 73); */
+    width: 100%;
+    font-family: Raleway;
+    color: rgb(55, 54, 54);
+    font-size: 40px;
+    font-weight: 0;
+     }
+}
+
+@media screen and (max-width: 950px) {
+    .Img11, .Img12, .Img13, .Img14, .Img15, .Img16,.Img17, .Img18{
+        max-width: 495px;
+        height:150px ;
+    }
+    /*контейнер для фото */
+    .Img121{
+        max-width: 100%;
+        height:150px;
+
+    }
+    .Glavv{
+        width: 100%;
+        height: 550px;
+        background-color: whitesmoke;
+    }
+    .Zagv{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    /* первый ряд фото */
+.Imgv{
+    width: 100%;
+    /* background-color: rgb(77, 96, 96); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    color: aliceblue;
+    height: 370px;
+    height: auto;
+    }
+    /* второй ряд фото */
+    .Imgv2{
+    width: 100%;
+    /* background-color: rgb(8, 15, 15); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    height: auto;
+    }
+    /* заголовок в h2 */
+    .Zagv{
+    /* display: flex;
+    justify-content: center; */
+     /* background-color: rgb(50, 85, 73); */
+    width: 100%;
+    font-family: Raleway;
+    color: rgb(63, 62, 62);
+    font-size: 27px;
+    font-weight: 0;
+    /* margin-top: 0px;
+    padding-top: -70px; */
+     }
+    /* главный */
+    .Glavv{
+        width: 100%;
+        height: 3900px;
+        background-color: whitesmoke;
+    }
+    .Glavv2{/* главный по рядам фото */
+    }
+    /*контейнеры для фото */
+    .Img11, .Img12, .Img13, .Img14, .Img15, .Img16,.Img17, .Img18{
+        max-width: 100%;
+        height:450px ;
+        margin-bottom: 15px;
+        border-right: 0px solid white;
+    }
+    /*контейнер для фото */
+    .Img121{
+        max-width: 100%;
+        height:450px;
+        /* border: 2.5px solid white; */
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Img11, .Img12, .Img13, .Img14, .Img15, .Img16,.Img17, .Img18{
+        max-width: 100%;
+        height:300px ;
+        margin-bottom: 15px;
+    }
+    /*контейнер для фото */
+    .Img121{
+        max-width: 100%;
+        height:300px;
+        /* border: 2.5px solid white; */
+    }
+    .Zagv{
+        /* display: flex;
+        justify-content: center; */
+         /* background-color: rgb(50, 85, 73); */
+        width: 100%;
+        font-family: Raleway;
+        color: rgb(63, 62, 62);
+        font-size: 27px;
+        font-weight: 0;
+        /* margin-top: 0px;*/
+        margin:0px; 
+       
+        
+        }
+         .Zagvh2{
+         
+            margin:-20px; 
+            padding-bottom: 45px;
+         }
+         .Glavv{
+       
+            height: 2620px;
+            background-color: whitesmoke;
+        }
+}
