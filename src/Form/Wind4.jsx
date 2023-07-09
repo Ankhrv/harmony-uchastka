@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import React, { useState } from "react"
 import emailjs from '@emailjs/browser';
 import './Wind4.css';
+import { Link } from 'react-router-dom';
 // import { Button } from '@react-email/button';
 const Wind4 = (props) => {
   const form = useRef();
@@ -36,7 +37,7 @@ const Wind4 = (props) => {
       </button>
       <p className='Tt'>
         Хотите получить письменный ответ на вопрос? Напишите нам на электронную почту.
-        Нажимая кнопку "Отправить" вы подтверждаете что ознакомились и согласны с политикой конфиденциальности </p>
+        Нажимая кнопку "Отправить" вы подтверждаете что ознакомились и согласны с <Link className='Tt2' to="/Obrabotkadannyh">политикой конфиденциальности</Link></p>
     </form>
     </div>
 

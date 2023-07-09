@@ -13,6 +13,7 @@ import Obslugivaniye from './src2/pages/Obslugivaniye/Obslugivaniye';
 import CoNtacts from './src2/pages/Contacts/CoNtacts';
 import Novinky from './src2/pages/Novinky/Novinky';
 import Derevja from './src2/pages/Derevja/Derevja';
+import Obrabotkadannyh from './src2/pages/Obrabotkadannyh/Obrabotkadannyh';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +29,8 @@ root.render(
       <Route path="/Obslugivaniye" element={<Obslugivaniye />} />
       <Route path="/Novinky" element={<Novinky />} />
       <Route path="/Rastenya" element={<Derevja />} />
+      <Route path="/Obrabotkadannyh" element={<Obrabotkadannyh />} />
+
     </Routes>
   </BrowserRouter>
 );

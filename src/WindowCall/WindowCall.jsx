@@ -5,6 +5,7 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import hone from '../WindowCall/206.png';
 import vv from '../WindowCall/Phone.module.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -48,15 +49,16 @@ const WindowCall = () => {
                             <button className={vv.closed} onClick=
                                 {() => close()}>
                                     x
-                            </button> <p className='ui3'>Служба поддержки</p>
+                            </button>
+                             <p className='ui3'>Служба поддержки</p>
                             <p className='ui2'>   Укажите ваши данные и нажмите кнопку "Отправить"</p> </div>
       <input className="inp" type="text" placeholder="Ваше имя" name="us_name" required />
       <input className="inp" type="phone" placeholder="Контактный телефон" name="us_email" required />
       <textarea className="inp" placeholder="Комментарий (не обязательно)" name="message"></textarea>
       <button  className='knop44' type="submit" value="Отправить">{buttonText} 
       </button>
-      <p className='Tt2'>
-     Нажимая кнопку "отправить" вы подтверждаете что ознакомились и согласны с политикой конфиденциальности </p>
+      <p className='Ttb'>
+     Нажимая кнопку "отправить" вы подтверждаете что ознакомились и согласны с <Link className='Tt2' to="/Obrabotkadannyh">политикой конфиденциальности</Link> </p>
     </form>
                         </div>
                     </div>
