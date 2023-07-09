@@ -53,8 +53,8 @@ function Stickynavbar() {
                         <a className='aaa' href='#'>Link</a></div> */}
                        <a href='https://harmonyuchastka.ru/'>Автополив</a>
                        <Link to="/landshaftnyj-dizajn">Ландшафтный дизайн</Link>
-                       <a href='#'>Озеленение и благоустройство</a>
-                       <Link to="/Derevja">Растения</Link>
+                       <Link to="/landshaftnyj-dizajn">Озеленение и благоустройство</Link>
+                       <Link to="/Rastenya">Растения</Link>
                        <Link to="/Price">Прайс-лист</Link>
                        <Link to="/Obslugivaniye">Консервация и обслуживание</Link>
                        <Link to="/Novinky">Новинки сезона</Link>

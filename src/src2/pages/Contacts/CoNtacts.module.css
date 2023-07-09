@@ -1,14 +1,14 @@
  
 @font-face {
     /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
-    src: url(/src/fonts/Montserrat-Regular.ttf);
+    src: url(/src/fonts/Raleway-Regular00.ttf);
     /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
-    font-family: Montserrat;
+    font-family: Raleway;
     /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
 }
 /* Style the list */
  ul.breadcrumb {
-    padding: 5px 16px;
+    padding: 5px 16px 5px 0px;
     list-style: none;
     background-color: whitesmoke;
 }
@@ -16,8 +16,8 @@
 /* Display list items side by side */
 ul.breadcrumb li {
     display: inline;
-    font-size: 17px;
-    font-family: Montserrat;
+    font-size: 18px;
+    font-family: Raleway;
     font-weight: 500;
     
 }
@@ -25,18 +25,57 @@ ul.breadcrumb li {
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
     padding: 8px;
-    color: rgb(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0, 0.3);
     content: ">";
 }
 
 /* Add a color to all links inside the list */
-ul.breadcrumb li a {
-    color: rgb(0, 0, 0, 0.8);
+ul.breadcrumb li  {
+    color: rgb(0, 0, 0, 0.7);
     text-decoration: none;
+  
 }
 
+
 /* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
+ul.breadcrumb .b::after {
+    content: ">";
+    padding-left: 8px ;
+    color: rgb(0, 0, 0, 0.3);
+}
     /* color: #01447e;
     text-decoration: underline; */
-} 
+
+.Dom{
+   
+    width: 15px;
+}
+
+.g{
+    margin-left: 10%;
+    padding: 0;
+    
+}
+.g0{
+   background-color: whitesmoke;
+    
+}
+
+@media screen and (max-width: 1600px) {
+    .g{
+        margin-left: 2.5%;
+        padding: 0;
+        
+    }}
+    
+    @media screen and (max-width: 1280px) {
+        .g{
+            margin-left: 2.5%;
+            padding: 0;
+            
+        }}    
+    @media screen and (max-width: 780px) {
+        .g{
+            margin-left: 2.5%;
+            padding: 0; 
+        }}    

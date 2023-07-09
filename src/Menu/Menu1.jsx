@@ -34,7 +34,7 @@ const Menu1 = () => {
                                     <li><a href='#'>Link</a></li>
                                 </ul>
                             </li>
-                            <li><Link to="/Derevja">Растения</Link>
+                            <li><Link to="/Rastenya">Растения</Link>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Деревья</a></li>
                                 </ul> */}
@@ -54,7 +54,7 @@ const Menu1 = () => {
                                     <li><a href='#'>Водопады</a></li>
                                 </ul> */}
                             </li>
-                            <li><a href='#'>О нас</a>
+                            <li><a>О нас</a>
                             <ul className={a.ssubmenuu2}>
                                     <li><Link to="/Contacts">Контаты</Link></li>
                                     <li><Link to="/Actions">Акции</Link></li>

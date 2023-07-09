@@ -7,8 +7,7 @@ import Menu from '../../../Menu/Menu';
 import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
 
-
-const Price = () => {
+const Novinky = () => {
 
 	return (
         <div className={sux.g0}>
@@ -17,17 +16,16 @@ const Price = () => {
            <div className={sux.g}>
            <ul className={sux.breadcrumb}>
   <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
-  <li><a className={sux.b}>Прайс-лист</a></li>
+  <li><a className={sux.b}>Новинки сезона</a></li>
   {/* <li><a href="#">Summer 15</a></li>
   <li>Italy</li> */}
 </ul>  </div>
            <Seven />
            <WindowCall />
-           
         </div>
       
     );
 }
 
 
-export default Price;
+export default Novinky;
