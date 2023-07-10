@@ -18,31 +18,29 @@ import Dom from '../Contacts/Dom.png';
 
 const Landshaftnyjdizajn = () => {
 
-	return (
+    return (
         <div>
-         <Header />
-    <Menu />
-    <MenuBaner2 />
-    
-    
-    <Three />
-    <For />
-    <div className={sux.g}>
-           <ul className={sux.breadcrumb}>
-  <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
-  <li><a className={sux.b}>Ландшафтный дизайн</a></li>
-  {/* <li><a href="#">Summer 15</a></li>
-  <li>Italy</li> */}
-</ul>  </div>
-    <Five />
-    <Form />
-    <Six />
-    <Seven />
-    <ScrollButton />
-    <WindowCall/>
-  </div>
- 
-      
+            <Header />
+            <Menu />
+            <MenuBaner2 />
+
+
+            <Three />
+            <For />
+            <div className={sux.g}>
+                <ul className={sux.breadcrumb}>
+                    <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
+                    <li><a className={sux.b}>Ландшафтный дизайн</a></li>
+                </ul>  </div>
+            <Five />
+            <Form />
+            <Six />
+            <Seven />
+            <ScrollButton />
+            <WindowCall />
+        </div>
+
+
     );
 }
 
