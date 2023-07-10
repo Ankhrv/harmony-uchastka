@@ -18,7 +18,7 @@ const Derevja = () => {
            <div className={sux.g}>
            <ul className={sux.breadcrumb}>
   <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
-  <li><a className={sux.b}>Растенмя</a></li>
+  <li><a className={sux.b}>Растения</a></li>
   {/* <li><a href="#">Summer 15</a></li>
   <li>Italy</li> */}
 </ul>  </div>

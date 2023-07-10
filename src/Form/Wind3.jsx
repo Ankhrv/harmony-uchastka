@@ -10,6 +10,7 @@ import i1 from '../Str7/icons82.png' ;
 import i2 from '../Str7/icons8.png' ;
 import i3 from '../Str7/icons81.png' ;
 import i4 from '../Str7/icons83png.png' ;
+import { Link } from 'react-router-dom';
 
 
 
@@ -66,8 +67,8 @@ const Wind3 = () => {
       <textarea className="inp" placeholder="Комментарий (не обязательно)" name="message"></textarea>
       <button  className='knop44' type="submit" value="Отправить">{buttonText} 
       </button>
-      <p className='Tt2'>
-     Нажимая кнопку "отправить" вы подтверждаете что ознакомились и согласны с политикой конфиденциальности </p>
+      <p className='Ttb'>
+     Нажимая кнопку "Отправить" вы подтверждаете что ознакомились и согласны с <Link className='Tt2' to="/Obrabotkadannyh">политикой конфиденциальности</Link> </p>
     </form>
                         </div>
                     </div>

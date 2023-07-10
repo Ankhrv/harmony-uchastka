@@ -21,7 +21,7 @@ const Menu1 = () => {
                                     <li><a href='#'>Link</a></li>
                                 </ul> */}
                             </li>
-                            <li> <Link to="/landshaftnyj-dizajn">Ландшафтный дизайн</Link>
+                            <li> <Link to="/Landshaftnyjdizajn">Ландшафтный дизайн</Link>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Link</a></li>
                                     <li><a href='#'>Link</a></li>

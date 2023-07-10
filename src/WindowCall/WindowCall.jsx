@@ -58,7 +58,7 @@ const WindowCall = () => {
       <button  className='knop44' type="submit" value="Отправить">{buttonText} 
       </button>
       <p className='Ttb'>
-     Нажимая кнопку "отправить" вы подтверждаете что ознакомились и согласны с <Link className='Tt2' to="/Obrabotkadannyh">политикой конфиденциальности</Link> </p>
+     Нажимая кнопку "Отправить" вы подтверждаете что ознакомились и согласны с <Link className='Tt2' to="/Obrabotkadannyh">политикой конфиденциальности</Link> </p>
     </form>
                         </div>
                     </div>
