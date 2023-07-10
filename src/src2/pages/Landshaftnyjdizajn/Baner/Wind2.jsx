@@ -12,7 +12,7 @@ const Wind2 = () => {
           <div className={с.text3}>
             <div className={с.text5}>
             <div><img src={im1} alt='im1' className={с.img1}></img><span className={с.T} > Составление сметы</span></div>
-            <div className={с.Cena}><div className={с.Cena2}>бесплатноjij</div></div></div>
+            <div className={с.Cena}><div className={с.Cena2}>бесплатно</div></div></div>
           <div className={с.text9}>
             <div><img src={im1} alt='im1' className={с.img1}></img><span className={с.T} > Выезд на объект</span></div>
             <div className={с.Cena}><div className={с.Cena2}>бесплатно</div></div></div>
@@ -20,11 +20,11 @@ const Wind2 = () => {
 
           <div className={с.text4}>
             <div className={с.text8}>
-             <div><img src={im1} alt='im1' className={с.img1}></img><span className={с.T} >Простая территория</span></div>
-             <div className={с.Cena}><div className={с.Cena2}>от 300 руб/м²</div></div></div>
+             <div><img src={im1} alt='im1' className={с.img1}></img><span className={с.T} > План проект</span></div>
+             <div className={с.Cena}><div className={с.Cena2}>от 1000 руб/сотка</div></div></div>
             <div className={с.text10}>
-             <div><img src={im1} alt='im1' className={с.img1}></img><span className={с.T} >Сложная территория</span></div>
-             <div className={с.Cena} ><div className={с.Cena2}>от 300 руб/м²</div> </div></div>
+             <div><img src={im1} alt='im1' className={с.img1}></img><span className={с.T} >Посадочный чертеж</span></div>
+             <div className={с.Cena} ><div className={с.Cena2}>от 500 руб/сотка</div> </div></div>
              </div></div>
          <div className={с.e2}>
           <div className={с.text7}>
