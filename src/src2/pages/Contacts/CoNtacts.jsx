@@ -13,19 +13,22 @@ const CoNtacts = () => {
 
 	return (
         <div className={sux.g0}>
+          
            <Header />
            <Menu />
-           <div className={sux.g}>
+
+           <div className={sux.g1}>  <div className={sux.g}>
            <ul className={sux.breadcrumb}>
   <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
   <li><a className={sux.b}>Контакты</a></li>
   {/* <li><a href="#">Summer 15</a></li>
   <li>Italy</li> */}
-</ul>  </div>
+  </ul>  
+  </div></div>
+
            <Seven />
            <WindowCall />
-        
-           
+         
         </div>
       
     );

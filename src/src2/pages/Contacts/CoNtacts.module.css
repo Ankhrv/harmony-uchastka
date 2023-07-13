@@ -62,11 +62,14 @@ ul.breadcrumb .b::after {
     margin-left: 10%;
     padding: 0;
     
-}
-.g0{
-   background-color: whitesmoke;
     
 }
+
+.g1{
+    width: 100%;
+    background-color:whitesmoke;
+     
+ }
 
 @media screen and (max-width: 1600px) {
     .g{

@@ -20,9 +20,9 @@
     font-weight: 0;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    margin-left: 10%;
+    margin: 0% 10%;
     color: rgb(63, 62, 62);
-    margin-top: 0px;
+    
 }
 
 .p{
@@ -30,8 +30,22 @@
     font-size: 18px;
     padding: 3px 0px;
     font-family: Montserrat;
-    font-weight: 300;
+    font-weight: 0;
+    color:rgb(63, 62, 62);
 }
+
+.p2{ 
+    /* текст пол-конф */
+    font-family: Raleway;
+    font-size: 18px;
+    padding: 3px 0px;
+    font-family: Montserrat;
+    font-weight: 0;
+    color:rgb(63, 62, 62);
+    padding: 0% 10%;
+    padding-bottom: 30px;
+}
+
   /* БЛОК С ТЕКСТОМ */
 .txt{
 background-color: rgb(30, 122, 122);
@@ -40,40 +54,22 @@ width: 652px;
 width: 50%;
 margin-left: 10%;
 margin-top: 0px;
-padding-right: 40px;
+padding-right: 0px;
 height: 380px;
 /* margin: 25px 25px 25px 25px; */
-color: rgb(63, 62, 62);
- /* background-color: rgb(108, 90, 90);  */
-
-
+color: rgb(63, 62, 62); 
 }
  /* ГЛАВНЫЙ КАРТИНКА*/
  .Pic22{
-    background-color: aquamarine;
-    background-color:rgb(127, 42, 42);
-    padding-right: 2px;
+   margin-right: 10%;   
     width: 50%;
     height: 360px;
-  margin-top: 0px;
-  padding-bottom: 0px;
   background:url(./Vodopad.jpg);
   background-size:cover;
-  display: flex;
-  justify-content: space-around;
+ 
 }
- .Pic22{margin-right: 10%;
-   }
-
-.Pic{
-background-color: aquamarine;
-background-color:whitesmoke;
-
-width: 200px;
 
 
-
-}
 
 .hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
  /* margin: 25px; */
@@ -81,110 +77,96 @@ width: 200px;
  width: 643px;
  height: 440px;
 }
- /* ЛИСТ КАРТИНКА*/
-.hh1{
-    width: 25px;
-}
 
- .Glav0{ /* ГЛАВНЫЙ */
-    
-
+.Glav0{
+    width: 100%;
     height: 470px;
-  justify-content: space-between;
-    /* background-color: rgb(21, 20, 20);
-    background-color:rgb(47, 42, 42); */
-    margin-top: 40px;
-    
+    margin-top: 30px;  
 }
 
+
+
+.Glav02{ /* ГЛАВНЫЙ пол-конф */
+    /* height: 470px; */
+  justify-content: space-between;
+    /* background-color: rgb(21, 20, 20);*/
+    background-color:rgb(255, 255, 255); 
+    margin-top: 30px;
+    
+}
 
 .Glav{ /* ГЛАВНЫЙ ВТОРОЙ*/
     width: 100%;
- display: flex;
+    display: flex;
     height: 650px;
     justify-content: space-between;
+   
+   
     /* background-color: blueviolet; */
 }
+
 @media screen and (max-width: 1600px) {
+  
+    .p2{ 
+        /* текст пол-конф */
+        font-family: Raleway;
+        font-size: 18px;
+        padding: 3px 0px;
+        font-family: Montserrat;
+        font-weight: 0;
+        color:rgb(63, 62, 62);
+        padding: 0% 2.5%;
+        padding-bottom: 30px;
+    }
+
     .txt{
-        margin-left: 1%;
-        padding-left: 2px;
+        margin-left: 2.5%;
+        padding-left: 0px;
+        /* background-color: aquamarine; */
     }
-    .Pic22{
-        margin-right: 1%;
-        
+   .h2{
+        margin-left: 2.5%;
+        padding-left: 0px;
     }
 
+.Pic22{
+    margin-right: 2.5%;
 }
-
-@media screen and (max-width: 1600px) {
-    .h2{
-        margin-left: 1%;
-        padding-left: 2px;
-    }
 }
-
-
-
 
 
 @media screen and (max-width: 1280px) {
+   
 
 
-.hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
-    /* margin: 25px; */
 
-    width: 100%;
-    height: 320px;
-   }
 
-.h2{
-    margin-left: 1%;
-    font-family: Montserrat;
-    color: rgb(63, 62, 62);
-    font-size: 40px;
-}
 .txt{
-    background-color: rgb(30, 122, 122);
-    background-color:white;
-    /* background-color: rgb(60, 20, 20);  */
+   
     width: 50%;
-    margin-left: 1%;
     height: auto;
     height: 360px;
     margin-bottom: 0px;
-    /* margin: 25px 25px 25px 25px; */
     color: rgb(63, 62, 62);
     padding-right: 10px;
-
     }
+
     .Pic22{
-        background-color: aquamarine;
-        background-color:rgb(127, 42, 42);
-        margin-right: 1%;
+        margin-right: 2.5%;
         width: 50%;
         height: 360px;
-      margin-top: 0px;
-      padding-bottom: 0px;
       background:url(./Vodopad.jpg);
       background-size:cover;
-      display: flex;
-      justify-content: space-around;
+     
+  
     }
 
         .Glav0{ /* ГЛАВНЫЙ */
-
             width: 100%;
-               height: 480px;}
+            height: 480px;}
     }
     @media screen and (max-width: 800px) {
-.h2{font-size: 40px;
-    
-margin-top: 30px;
-}
-        .pic{
-            margin:0;
-        }
+     
         .txt{
             background-color: rgb(30, 122, 122);
             background-color:whitesmoke;
@@ -195,11 +177,6 @@ margin-top: 30px;
             /* background-color: rgb(108, 90, 90);  */
             }
 
-            .Pic22{
-            background-color: aquamarine;
-            background-color:whitesmoke;
-            width: 100px;
-            }
 
             .Pic22{
             width:auto;
@@ -209,9 +186,7 @@ margin-top: 30px;
             align-items: center;
             margin:0;
             }
-            .hh1{
-                width: 25px;
-            }
+         
              .Glav0{
 
              display: flex;
@@ -219,7 +194,7 @@ margin-top: 30px;
               flex-direction: column;
                 /* background-color: rgb(21, 20, 20);
                 background-color:rgb(47, 42, 42); */
-                margin:0;
+                margin-top:30px;
             }
 
             .li, .p{
@@ -234,18 +209,14 @@ margin-top: 30px;
                 flex-direction: column;
         /* background-color: blueviolet; */
     }
-    .hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
-        /* margin: 25px; */
-
-        width: auto;
-        height: 240px;
-       }}
+  }
 
 
 
-       @media screen and (max-width: 800px) {
+       @media screen and (max-width: 810px) {
 .h2{margin-left: 2%;
     margin-top: 30px;
+    font-size: 40px;
     }
         .pic{
             margin: 0%;
@@ -318,12 +289,20 @@ margin-top: 30px;
 
        @media screen and (max-width: 650px) {
         .h2{
-            text-align: center;
+            /* text-align: center; */
             font-size: 25px;
-    }}
+            margin:20px 0px 0px 2%;
+    }
+    .p2{
+        padding-bottom: 20px;
+    }
+}
        @media screen and (max-width: 450px) {
         .h2{
             margin-top: 20px;  
+        }
+        .p2{
+            padding-bottom: 20px;
         }
         
        }
