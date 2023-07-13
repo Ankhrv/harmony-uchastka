@@ -9,20 +9,53 @@ const For = () => {
     return (
     
 <div className={n.Glav}>
-<div className={n.GlavB}>
+{/* <div className={n.GlavB}> */}
 <div className={n.txt}><p>Примеры наших работ </p> 
 </div>
 <div className={n.Pic4}>
-    <div className={n.Pic}><div className={n.Pic300}> <div className={n.Pic200}> 
-    <div className={n.Pic24}>  <img src={dom1} alt="fom1" className={n.Pic2}></img> <div className={n.Pic25}>Посадка хвойных деревьев</div><div className={n.Pic29}><a href='#' className={n.Pica}>Подробнее</a></div></div>
-    <div className={n.Pic24}>   <img src={dom2} alt="fom1" className={n.Pic2}></img><div className={n.Pic25}>Посадка цветов </div><div className={n.Pic29}><a href='#' className={n.Pica}>Подробнее</a></div></div></div>
-    <div className={n.Pic200}> <div className={n.Pic24}>  <img src={dom3} alt="fom1" className={n.Pic2}></img><div className={n.Pic25}>Посадка кустарных растений</div><div className={n.Pic29}><a href='#' className={n.Pica}>Подробнее</a></div></div>
-   <div className={n.Pic24}>  <img src={dom7} alt="fom1" className={n.Pic2}></img><div className={n.Pic25}>Посадка живой изгороди</div><div className={n.Pic29}><a href='#' className={n.Pica}>Подробнее</a></div></div></div>
+    <div className={n.Pic}>
+    <div className={n.Pic300}> 
+
+    <div className={n.Pic200}> 
+
+    <div className={n.Pic24}> 
+     <img src={dom1} alt="fom1" className={n.Pic2}></img>
+      <p className={n.Pic25}>Посадка хвойных деревьев</p>
+      {/* <div className={n.Pic29}> */}
+        <a href='#' className={n.Pica}>Подробнее</a>
+      {/* </div> */}
+      </div>
+
+    <div className={n.Pic24}>  
+     <img src={dom2} alt="fom1" className={n.Pic2}></img>
+     <p className={n.Pic25}>Посадка цветов </p>
+     {/* <div className={n.Pic29}> */}
+    <a href='#' className={n.Pica}>Подробнее</a>
+    {/* </div> */}
+    </div></div>
+    
+    <div className={n.Pic200}> 
+    
+   <div className={n.Pic24}> 
+    <img src={dom3} alt="fom1" className={n.Pic2}></img>
+    <p className={n.Pic25}>Посадка кустарных растений</p>
+    {/* <div className={n.Pic29}> */}
+    <a href='#' className={n.Pica}>Подробнее</a>
+    {/* </div> */}
+    </div>
+   <div className={n.Pic24}> 
+    <img src={dom7} alt="fom1" className={n.Pic2}></img>
+    <p className={n.Pic25}>Посадка живой изгороди</p>
+    {/* <div className={n.Pic29}> */}
+    <a href='#' className={n.Pica}>Подробнее</a>
+    {/* </div> */}
+    </div></div>
    </div>
  
 </div>
 </div>
-    </div></div>
+    </div>
+    
     
     ); 
 }

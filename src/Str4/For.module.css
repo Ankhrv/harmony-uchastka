@@ -24,14 +24,16 @@
     
    margin: 0px 10.5% 0px 10.5%;
 }
+.Pic4{
+        margin: 0px 10.5% 0px 10.5%;
+ }
 .txt{
-width: 100%;background-color: rgb(43, 73, 73);
+width: 100%;
 background-color: whitesmoke;
 font-size: 43px;
 font-family: Raleway;
 color: rgb(63, 62, 62);
-display: flex;
-justify-content: center;
+text-align: center;
 font-weight: 300;
 padding-top: 50px;
 padding-bottom: 0px;
@@ -77,22 +79,21 @@ color: whitesmoke;
 text-decoration: none;
 background-color: rgb(13, 130, 89);
 border-radius: 5px 5px 5px 5px;
+text-align: center;
+display: flex;
+justify-content: center;
+margin: 0% 30%;
+margin-bottom: 20px;
 }
-
-      
  
-    
 .Pic24{
-    
-
-
 margin: 5px;
 border-radius: 5px 5px 5px 5px;
 }
-.Pic300 :hover{
-   
+.Pic24:hover {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
 
 .Pic25{
     margin: 0px 0px 30px 0px;  
@@ -125,12 +126,12 @@ height: 680px;
 
 @media screen and (max-width: 1600px) {
     .GlavB{
-
-
-    
         margin: 0px 2% 0px 2%;
      }
  
+     .Pic4{
+        margin: 0px 2% 0px 2%;
+ }
 }
 @media screen and (max-width: 1280px) {
     .Glav{
@@ -140,9 +141,6 @@ height: 680px;
         height: 530px;
         }
         .GlavB{
-
-
-    
         margin: 0px 2% 0px 2%;
      }
      .txt{
