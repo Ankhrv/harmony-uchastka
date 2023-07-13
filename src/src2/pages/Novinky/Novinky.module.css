@@ -37,7 +37,7 @@
 .p2{ 
     /* текст пол-конф */
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 17px;
     padding: 3px 0px;
     font-family: Montserrat;
     font-weight: 0;
@@ -279,7 +279,7 @@ color: rgb(63, 62, 62);
        }}
        @media screen and (max-width: 780px) {
     
-.li, .p{
+.li, .p, .p2{
     
     font-size: 16px;
   

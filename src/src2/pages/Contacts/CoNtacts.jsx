@@ -6,8 +6,15 @@ import Header from '../../../Header/Header';
 import Menu from '../../../Menu/Menu';
 import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
-// import HeaderandMenu from '../../HeaderandMenu';
+import { SlSocialInstagram } from 'react-icons/sl';
+import { SlSocialVkontakte } from 'react-icons/sl';
+import { SlSocialYoutube} from 'react-icons/sl';
+import { BsTelephone } from 'react-icons/bs';
+import { BsMailbox } from 'react-icons/bs';
+import { BsClock } from 'react-icons/bs';
 
+
+import k from '../Novinky/Novinky.module.css';
 
 const CoNtacts = () => {
 
@@ -25,6 +32,26 @@ const CoNtacts = () => {
   <li>Italy</li> */}
   </ul>  
   </div></div>
+
+  <div className={k.Glav02}>
+<div className={k.h2}>
+Контакты компании «Гармония участка»
+</div>
+
+<p className={k.p2}>
+
+<BsTelephone/> +7 (937) 263-90-10 
+<br></br>
+<BsMailbox /> harmonY64@bk.ru 
+<br></br>
+<BsClock /> Понедельник - Пятница: 9:00 - 18:00.
+<br></br><br></br><SlSocialInstagram/>  <SlSocialVkontakte/>  <SlSocialYoutube/>
+<br></br>
+<br></br>
+В разделе размещена актуальная контактная информация компании по ландшафтному дизайну в Саратове — «Гармония участка».</p></div>
+
+
+
 
            <Seven />
            <WindowCall />
