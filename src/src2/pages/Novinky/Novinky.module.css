@@ -28,28 +28,31 @@
 .p{
     font-family: Raleway;
     font-size: 18px;
-    padding: 3px 0px;
+    padding: 0px 0px;
     font-family: Montserrat;
     font-weight: 0;
     color:rgb(63, 62, 62);
+  
+   
 }
 
 .p2{ 
     /* текст пол-конф */
     font-family: Raleway;
     font-size: 17px;
-    padding: 3px 0px;
+    padding: 0px 0px;
     font-family: Montserrat;
     font-weight: 0;
     color:rgb(63, 62, 62);
     padding: 0% 10%;
     padding-bottom: 30px;
+    
+   
 }
 
   /* БЛОК С ТЕКСТОМ */
 .txt{
-background-color: rgb(30, 122, 122);
-background-color:white;
+
 width: 652px;
 width: 50%;
 margin-left: 10%;
@@ -58,10 +61,12 @@ padding-right: 0px;
 height: 380px;
 /* margin: 25px 25px 25px 25px; */
 color: rgb(63, 62, 62); 
+padding-right: 10px;
 }
  /* ГЛАВНЫЙ КАРТИНКА*/
  .Pic22{
-   margin-right: 10%;   
+   margin-right: 10%;  
+   margin-top: 20px; 
     width: 50%;
     height: 360px;
   background:url(./Vodopad.jpg);
@@ -75,7 +80,7 @@ color: rgb(63, 62, 62);
  /* margin: 25px; */
 
  width: 643px;
- height: 440px;
+ /* height: 440px; */
 }
 
 .Glav0{
@@ -111,7 +116,7 @@ color: rgb(63, 62, 62);
         /* текст пол-конф */
         font-family: Raleway;
         font-size: 18px;
-        padding: 3px 0px;
+        padding: 0px 0px;
         font-family: Montserrat;
         font-weight: 0;
         color:rgb(63, 62, 62);
@@ -154,7 +159,7 @@ color: rgb(63, 62, 62);
     .Pic22{
         margin-right: 2.5%;
         width: 50%;
-        height: 360px;
+        height: 340px;
       background:url(./Vodopad.jpg);
       background-size:cover;
      
@@ -163,13 +168,13 @@ color: rgb(63, 62, 62);
 
         .Glav0{ /* ГЛАВНЫЙ */
             width: 100%;
-            height: 480px;}
+            height: 450px;}
     }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 810px) {
      
         .txt{
             background-color: rgb(30, 122, 122);
-            background-color:whitesmoke;
+            padding-right: 0px;
             color: rgb(63, 62, 62);
             width: auto;
             height: auto;
@@ -200,6 +205,7 @@ color: rgb(63, 62, 62);
             .li, .p{
                 font-family: Raleway;
                 font-size: 17px;
+                
             }
 
             .Glav{
@@ -229,12 +235,6 @@ color: rgb(63, 62, 62);
             margin: 0px 0px 25px 0px;
             margin:0% 2%;
             /* background-color: rgb(108, 90, 90);  */
-            }
-
-            .Pic22{
-            background-color: aquamarine;
-            background-color:rgb(48, 84, 74);
-            width: 100px;
             }
 
             .Pic22{
@@ -305,4 +305,15 @@ color: rgb(63, 62, 62);
             padding-bottom: 20px;
         }
         
+.Glav02{ /* ГЛАВНЫЙ пол-конф */
+ 
+    margin-top: 20px;
+    
+}
+
+.Pic22{
+      height: 300px;
+      background:url(./Vodopad.jpg);
+      background-size:cover;
+    }       
        }
