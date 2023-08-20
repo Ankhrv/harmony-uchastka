@@ -6,6 +6,7 @@ import 'reactjs-popup/dist/index.css';
 import hone from '../WindowCall/206.png';
 import vv from '../WindowCall/Phone.module.css';
 import { Link } from 'react-router-dom';
+import InputMask from "react-input-mask";
 
 
 
@@ -13,6 +14,7 @@ import { Link } from 'react-router-dom';
 const WindowCall = () => {
 
     const form = useRef();
+    const [phone, setPhone] = React.useState("");
 
     const [buttonText, setButtonText] = useState("Отправить");
   
@@ -52,9 +54,14 @@ const WindowCall = () => {
                             </button>
                              <p className='ui3'>Служба поддержки</p>
                             <p className='ui2'>   Укажите ваши данные и нажмите кнопку "Отправить"</p> </div>
-      <input className="inp" type="text" placeholder="Ваше имя" name="us_name" required />
-      <input className="inp" type="phone" placeholder="Контактный телефон" name="us_email" required />
-      <textarea className="inp" placeholder="Комментарий (не обязательно)" name="message"></textarea>
+                            <input type="text"
+        title="Разрешено использовать только пробелы и русские буквы"
+        pattern="^[А-Яа-яЁё\s]+$"  maxLength={10} className="inp" placeholder="Ваше имя" name="us_name" required />
+      <InputMask  type="tel" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+        title="Используйте формат: +7 (777) 777-77-77"
+        value={phone} onChange={e => setPhone(e.target.value)} mask="+7\ (999) 999-99-99"
+        maskChar=" " className="inp" name="phone" placeholder="Контактный телефон" required />
+      <textarea maxLength={500} className="inp" placeholder="Комментарий (не обязательно)" name="message"></textarea>
       <button  className='knop44' type="submit" value="Отправить">{buttonText} 
       </button>
       <p className='Ttb'>

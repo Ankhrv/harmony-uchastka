@@ -30,9 +30,11 @@ const Wind4 = (props) => {
   return (
     <div className='GL'> <form ref={form} onSubmit={sendEmail} className='te'>
       <p className='ui'>Хотите получить письменный ответ на вопрос? Напишите нам на электронную почту.</p>
-      <input type="text" placeholder="Ваше имя" name="us_name" required />
-      <input type="email" placeholder="Электронная почта" name="us_email" required />
-      <textarea placeholder="Ваш вопрос или сообщение" name="message"></textarea>
+      <input type="text"
+        title="Разрешено использовать только пробелы и русские буквы"
+        pattern="^[А-Яа-яЁё\s]+$" maxLength={10} placeholder="Ваше имя" name="name" required />
+      <input type="email" name="email" maxLength={20} placeholder="Электронная почта" required />
+      <textarea maxLength={500} placeholder="Ваш вопрос или сообщение" name="message"></textarea>
       <button  className='knop4' type="submit" value="Отправить">{buttonText} 
       </button>
       <p className='Tt'>
