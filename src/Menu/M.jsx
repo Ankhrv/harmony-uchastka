@@ -37,20 +37,7 @@ function Stickynavbar() {
                    </div> 
                     <div ref={Mennu} className="dropdown-content">
                     
-                        {/* <div><button onClick={myFunction2} className="dropbtn1"><a>Автополив</a></button></div>
-                         <div ref={Mennu2}className="dropdown-content3">
-                        <a className="aaa" href='#'>Link</a>
-                        <a className="aaa" href='#'>Link</a>
-                        <a className="aaa" href='#'>Link</a>
-                        <a className="aaa" href='#'>Link</a></div>
-                        
-                            
-                        <div><button onClick={myFunction3} className="dropbtn2"><a>Ландшафтный дизайн</a></button></div>
-                         <div ref={Mennuf}className="dropdown-content3">
-                        <a className='aaa' href='#'>Link</a>
-                        <a className='aaa' href='#'>Link</a>
-                        <a className='aaa' href='#'>Link</a>
-                        <a className='aaa' href='#'>Link</a></div> */}
+                
                        <a href='https://harmonyuchastka.ru/'>Автополив</a>
                        <Link to="/Landshaftnyjdizajn">Ландшафтный дизайн</Link>
                        <Link to="/landshaftnyj-dizajn">Озеленение и благоустройство</Link>

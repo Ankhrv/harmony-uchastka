@@ -19,7 +19,7 @@ const Obrabotkadannyh = () => {
        meta={[
        {"name": "description", "content": "Landscape design Saratov"}
        ]}
-       base={{"href": "https://harmonyuchastka.ru/Obrabotkadannyh/"}}
+    //    base={{"href": "https://harmonyuchastka.ru/Obrabotkadannyh/"}}
 
        />
            <Header />

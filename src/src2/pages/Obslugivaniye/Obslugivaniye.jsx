@@ -18,7 +18,7 @@ const Obslugivaniye = () => {
        meta={[
        {"name": "description", "content": "Landscape design Saratov"}
        ]}
-       base={{"href": "https://harmonyuchastka.ru/Obslugivaniye/"}}
+    //    base={{"href": "https://harmonyuchastka.ru/Obslugivaniye/"}}
 
        />
            <Header />

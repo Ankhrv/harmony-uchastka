@@ -19,7 +19,7 @@ const Derevja = () => {
        meta={[
        {"name": "description", "content": "Landscape design Saratov"}
        ]}
-       base={{"href": "https://harmonyuchastka.ru/Rastenya/"}}
+    //    base={{"href": "https://harmonyuchastka.ru/Rastenya/"}}
 
        />
            <Header />

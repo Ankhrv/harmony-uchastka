@@ -1,0 +1,255 @@
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Montserrat-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Montserrat;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+.h2{
+    font-size: 45px;
+    font-family: Raleway;
+    font-weight: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin: 0% 10%;
+    margin-bottom: 27px;
+    color: rgb(63, 62, 62);
+    
+}
+
+
+
+
+
+
+
+.Glav0{
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 27px;  
+    
+}
+
+
+
+.Glav02{ /* ГЛАВНЫЙ пол-конф */
+    /* height: 470px;
+  justify-content: space-between;
+    /* background-color: rgb(21, 20, 20);*/
+    background-color:rgb(255, 255, 255); 
+    margin-top: 27px;
+    
+}
+
+.Glav{ /* ГЛАВНЫЙ ВТОРОЙ*/
+    width: 100%;
+    display: flex;
+    /* height: 650px; */
+    justify-content: space-between;
+   
+   
+    /* background-color: blueviolet; */
+}
+
+@media screen and (max-width: 1600px) {
+  
+    .p2{ 
+        /* текст пол-конф */
+        font-family: Raleway;
+        font-size: 18px;
+        padding: 0px 0px;
+        font-family: Montserrat;
+        font-weight: 0;
+        color:rgb(63, 62, 62);
+        padding: 0% 2.5%;
+        padding-bottom: 40px;
+    }
+
+    .txt{
+        margin-left: 2.5%;
+        padding-left: 0px;
+        /* background-color: aquamarine; */
+    }
+   .h2{
+        margin-left: 2.5%;
+        padding-left: 0px;
+        margin-bottom: 27px;
+    }
+
+.Pic22{
+   
+}
+}
+
+
+@media screen and (max-width: 1280px) {
+   
+
+
+
+
+.txt{
+   
+    width: 50%;
+    height: auto;
+    height: 360px;
+    margin-bottom: 0px;
+    color: rgb(63, 62, 62);
+    padding-right: 10px;
+    }
+
+    .Pic22{
+
+     
+  
+    }
+
+        .Glav0{ /* ГЛАВНЫЙ */
+            width: 100%;}
+            /* height: 470px;} */
+    }
+    @media screen and (max-width: 810px) {
+     
+        .txt{
+            background-color: rgb(30, 122, 122);
+            padding-right: 0px;
+            color: rgb(63, 62, 62);
+            width: auto;
+            height: auto;
+            /* margin: 25px 25px 25px 25px; */
+            /* background-color: rgb(108, 90, 90);  */
+            }
+
+
+            .Pic22{
+        
+            }
+         
+             .Glav0{
+
+             display: flex;
+                height: auto;
+              flex-direction: column;
+                /* background-color: rgb(21, 20, 20);
+                background-color:rgb(47, 42, 42); */
+                margin-top:30px;
+            }
+
+            .li, .p, .p2{
+                font-family: Raleway;
+                font-size: 17px;
+                
+            }
+
+            .Glav{
+                width: 100%;
+             display: flex;
+                height: auto;
+                flex-direction: column;
+        /* background-color: blueviolet; */
+    }
+  }
+
+
+
+       @media screen and (max-width: 810px) {
+.h2{margin-left: 2%;
+    margin-top: 30px;
+    font-size: 40px;
+    
+    }
+        .pic{
+            margin: 0%;
+        }
+        .txt{
+            background-color: rgb(30, 122, 122);
+            background-color:white;
+            width: auto;
+            height: auto;
+            margin: 0px 0px 25px 0px;
+            margin:0% 2%;
+            /* background-color: rgb(108, 90, 90);  */
+            }
+
+            .Pic22{
+        
+            }
+            .hh1{
+                width: 25px;
+            }
+             .Glav0{
+
+             display: flex;
+                height: auto;
+              flex-direction: column;
+                /* background-color: rgb(21, 20, 20);
+                background-color:rgb(47, 42, 42); */
+                margin-top: 0em;
+            }
+
+            .li, .p{
+                font-family: Raleway;
+                font-size: 17px;
+            }
+
+            .Glav{
+                width: 100%;
+             display: flex;
+                height: auto;
+                flex-direction: column;
+        /* background-color: blueviolet; */
+    }
+    .hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
+        /* margin: 25px; */
+
+        width: auto;
+        height: 240px;
+       }}
+       @media screen and (max-width: 780px) {
+    
+.li, .p, .p2{
+    
+    font-size: 16px;
+    font-weight: 0;
+  
+}
+       }
+
+
+       @media screen and (max-width: 650px) {
+        .h2{
+            /* text-align: center; */
+            font-size: 25px;
+            margin:20px 0px 20px 2%;
+    }
+    .p2{
+        padding-bottom: 20px;
+    }
+}
+       @media screen and (max-width: 450px) {
+        .h2{
+            margin-top: 20px;  
+        }
+        .p2{
+            padding-bottom: 20px;
+        }
+        
+.Glav02{ /* ГЛАВНЫЙ пол-конф */
+ 
+    margin-top: 20px;
+    
+}
+
+.Pic22{
+     
+    }       
+       }

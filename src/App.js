@@ -19,35 +19,36 @@ import { Helmet } from 'react-helmet';
 
 const App = () => {
   return (
-  
+
     <div className="App">
-          <Helmet
-       
-                           title="Гармония Участка"
-                           meta={[
-                           {"name": "description", "content": "Landscape design Saratov"}
-                           ]}
-                           link={[
-                            {"rel": "icon", "href": "%PUBLIC_URL%/favicon33.ico"},
-                          
-                        ]}
-                           base={{"href": "https://harmonyuchastka.ru/"}}
-                           />
-    <Header />
-    <Menu />
-    <MenuBaner />
-    <First />
-    <Two />
-    <Three />
-    <For />
-    <Five />
-    <Form />
-    <Six />
-    <Seven />
-    <ScrollButton />
-    <WindowCall/>
-  </div>
- 
+      <Helmet
+        title="Гармония Участка"
+        meta={[
+          { "name": "description", "content": "Landscape design Saratov" }
+        ]}
+        link={[
+          { "rel": "icon", "href": "%PUBLIC_URL%/favicon33.ico" },
+
+        ]}
+        // base={{ "href": "https://harmonyuchastka.ru/" }}
+      />
+
+
+      <Header />
+      <Menu />
+      <MenuBaner />
+      <First />
+      <Two />
+      <Three />
+      <For />
+      <Five />
+      <Form />
+      <Six />
+      <Seven />
+      <ScrollButton />
+      <WindowCall />
+    </div>
+
   );
 }
 

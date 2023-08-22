@@ -1,0 +1,97 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+
+.dropbtn11 {
+    width: 100%;
+  text-align: left;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: rgb(13, 130, 89);
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Raleway;
+  
+}
+
+
+.dropdown1 {
+    /* background-color: rgb(13, 130, 89); */
+    width: 100%; 
+    margin-bottom: 4px; 
+  
+
+   
+    
+}
+
+.kn1{
+    background-color: rgb(13, 130, 89); 
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke; 
+    padding: 4px 4px 4px 0px;
+    font-family:Montserrat;
+    font-weight:0;
+    margin:0% 10%;
+   
+    
+   
+}
+
+
+
+.knn1{
+    padding: 25px 8px;    
+}
+
+.dropdown-content1 {
+    display: none;
+   
+   
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+    font-size: 14px;
+    padding: 5px 0px;
+    border-top: 1px solid rgba(248, 248, 248, 0.1);  
+}
+
+
+
+
+
+
+
+
+
+.show2 {display: block;}
+@media screen and (max-width: 1600px) {
+
+.kn1{
+    background-color: rgb(13, 130, 89); 
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke; 
+    padding: 4px 4px 4px 0px;
+    font-family:Montserrat;
+    font-weight:0;
+    margin:0% 2.5%;
+   
+    
+   
+}
+
+}
+@media screen and (max-width: 500px) {
+
+}
