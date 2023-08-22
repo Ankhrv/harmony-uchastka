@@ -3,12 +3,14 @@ import Header from '../Header/Header';
 import Menu from '../Menu/Menu';
 import Seven from '../Str7/Str7';
 import WindowCall from '../WindowCall/WindowCall';
+import { Helmet } from 'react-helmet';
 
 
 const HeaderandMenu = () => {
 
 	return (
         <div>
+       
            <Header />
            <Menu />
            <Seven />

@@ -6,11 +6,21 @@ import Header from '../../../Header/Header';
 import Menu from '../../../Menu/Menu';
 import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
+import { Helmet } from 'react-helmet';
 
 const Actions = () => {
 
 	return (
         <div className={sux.go}>
+               <Helmet
+       
+       title="Обработка данных"
+       meta={[
+       {"name": "description", "content": "Landscape design Saratov"}
+       ]}
+       base={{"href": "https://harmonyuchastka.ru/Actions/"}}
+
+       />
            <Header />
            <Menu />
            <div className={sux.g}>

@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import Header from './Header/Header';
@@ -14,16 +13,26 @@ import Six from './Six/Six';
 import Seven from './Str7/Str7';
 import ScrollButton from './ScrollButton/ScrollButton';
 import WindowCall from './WindowCall/WindowCall';
-// import Phone from './Phone/Phone';
-
-// import Profile from './Profile/Profile';
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 
 const App = () => {
   return (
+  
     <div className="App">
+          <Helmet
+       
+                           title="Гармония Участка"
+                           meta={[
+                           {"name": "description", "content": "Landscape design Saratov"}
+                           ]}
+                           link={[
+                            {"rel": "icon", "href": "%PUBLIC_URL%/favicon33.ico"},
+                          
+                        ]}
+                           base={{"href": "https://harmonyuchastka.ru/"}}
+                           />
     <Header />
     <Menu />
     <MenuBaner />

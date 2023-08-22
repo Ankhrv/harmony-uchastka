@@ -7,12 +7,21 @@ import Menu from '../../../Menu/Menu';
 import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
 import k from '../Novinky/Novinky.module.css';
-
+import { Helmet } from 'react-helmet';
 
 const Obrabotkadannyh = () => {
 
 	return (
         <div className={sux.go}>
+                 <Helmet
+       
+       title="Обработка данных"
+       meta={[
+       {"name": "description", "content": "Landscape design Saratov"}
+       ]}
+       base={{"href": "https://harmonyuchastka.ru/Obrabotkadannyh/"}}
+
+       />
            <Header />
            <Menu />
            <div className={sux.g1}>     <div className={sux.g}>

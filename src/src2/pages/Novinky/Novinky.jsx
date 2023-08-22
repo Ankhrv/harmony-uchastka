@@ -8,11 +8,21 @@ import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
 import k from './Novinky.module.css';
 import ScrollButton from '../../../ScrollButton/ScrollButton';
+import { Helmet } from 'react-helmet';
 
 const Novinky = () => {
 
 	return (
          <div className={sux.g0}>
+          <Helmet
+       
+       title="Новинки"
+       meta={[
+       {"name": "description", "content": "Landscape design Saratov"}
+       ]}
+       base={{"href": "https://harmonyuchastka.ru/Novinky/"}}
+
+       />
            <Header />
            <Menu />
            

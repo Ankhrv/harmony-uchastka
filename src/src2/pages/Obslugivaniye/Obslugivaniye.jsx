@@ -6,11 +6,21 @@ import Header from '../../../Header/Header';
 import Menu from '../../../Menu/Menu';
 import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
+import { Helmet } from 'react-helmet';
 
 const Obslugivaniye = () => {
 
 	return (
         <div className={sux.g0}>
+             <Helmet
+       
+       title="Обслуживание"
+       meta={[
+       {"name": "description", "content": "Landscape design Saratov"}
+       ]}
+       base={{"href": "https://harmonyuchastka.ru/Obslugivaniye/"}}
+
+       />
            <Header />
            <Menu />
            <div className={sux.g}>

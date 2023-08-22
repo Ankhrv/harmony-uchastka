@@ -7,12 +7,21 @@ import Menu from '../../../Menu/Menu';
 import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
 // import HeaderandMenu from '../../HeaderandMenu';
-
+import { Helmet } from 'react-helmet';
 
 const Derevja = () => {
 
 	return (
     <div className={sux.g0}>
+          <Helmet
+       
+       title="Растения"
+       meta={[
+       {"name": "description", "content": "Landscape design Saratov"}
+       ]}
+       base={{"href": "https://harmonyuchastka.ru/Rastenya/"}}
+
+       />
            <Header />
            <Menu />
            <div className={sux.g}>

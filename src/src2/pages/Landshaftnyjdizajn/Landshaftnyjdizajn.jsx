@@ -14,12 +14,22 @@ import Form from '../../../Form/Form';
 import Six from '../../../Six/Six';
 import ScrollButton from '../../../ScrollButton/ScrollButton';
 import Dom from '../Contacts/Dom.png';
-
+import { Helmet } from 'react-helmet';
 
 const Landshaftnyjdizajn = () => {
 
     return (
         <div>
+                <Helmet
+       
+       title="Ландшатный дизайн"
+       meta={[
+       {"name": "description", "content": "Landscape design Saratov"}
+       ]}
+       base={{"href": "https://harmonyuchastka.ru/Landshaftnyjdizajn/"}}
+
+       />
+
             <Header />
             <Menu />
             <MenuBaner2 />

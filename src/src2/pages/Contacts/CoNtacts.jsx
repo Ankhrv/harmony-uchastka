@@ -12,7 +12,7 @@ import { SlSocialYoutube} from 'react-icons/sl';
 import { BsTelephone } from 'react-icons/bs';
 import { BsMailbox } from 'react-icons/bs';
 import { BsClock } from 'react-icons/bs';
-
+import { Helmet } from 'react-helmet';
 
 import k from '../Novinky/Novinky.module.css';
 
@@ -20,7 +20,15 @@ const CoNtacts = () => {
 
 	return (
         <div className={sux.g0}>
-          
+                   <Helmet
+       
+       title="Контакты"
+       meta={[
+       {"name": "description", "content": "Landscape design Saratov"}
+       ]}
+       base={{"href": "https://harmonyuchastka.ru/Contacts/"}}
+
+       />
            <Header />
            <Menu />
 
