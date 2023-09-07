@@ -57,28 +57,15 @@ color: rgb(63, 62, 62);
     height: 260px;
   margin-top: 0px;
   padding-bottom: 60px;
-  background:url(../Str/hh.jpg); 
+  background:url(/src/src2/pages/Landshaftnyjdizajn/Str/hh2.jpg); 
   background-size:cover;
   display: flex;
   justify-content: space-around;
-}
-.Pic23{
-    background-color: whitesmoke;
-    background-color:rgb(127, 42, 42);
-    /* margin-top: 60px; */
-    width: 100%;
-    height: 260px;
-    background:url(../Str/hh.jpg); 
-    background-color:white;
-
+ }
 
  
  
-  display: flex;
-  justify-content:center;
   
-
-}
  .Pic22{margin-right: 10%;
    }
 
@@ -106,7 +93,7 @@ width: 200px;
  .Glav0{ /* ГЛАВНЫЙ */
     
 
-    height: 470px;
+    /* height: 470px; */
   justify-content: space-between;
     /* background-color: rgb(21, 20, 20);
     background-color:rgb(47, 42, 42); */
@@ -118,7 +105,7 @@ width: 200px;
 .Glav{ /* ГЛАВНЫЙ ВТОРОЙ*/
     width: 100%;
  display: flex;
-    height: 650px;
+    /* height: 650px; */
     justify-content: space-between;
     /* background-color: blueviolet; */
 }
@@ -183,7 +170,7 @@ width: 200px;
         height: 260px;
       margin-top: 30px;
       padding-bottom: 60px;
-      background:url(../Str/hh.jpg);
+      background:url(/src/src2/pages/Landshaftnyjdizajn/Str/hh2.jpg); 
       background-size:cover;
       display: flex;
       justify-content: space-around;
@@ -192,7 +179,7 @@ width: 200px;
         .Glav0{ /* ГЛАВНЫЙ */
 
             width: 100%;
-               height: 500px;}
+               /* height: 500px; */}
     }
     @media screen and (max-width: 800px) {
 .h2{font-size: 40px;

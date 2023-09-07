@@ -10,7 +10,7 @@
  ul.breadcrumb {
     padding: 5px 16px 5px 0px;
     list-style: none;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 /* Display list items side by side */
@@ -67,7 +67,7 @@ ul.breadcrumb .b::after {
 
 .g1{
     width: 100%;
-    background-color:whitesmoke;
+    background-color:white;
      
  }
 

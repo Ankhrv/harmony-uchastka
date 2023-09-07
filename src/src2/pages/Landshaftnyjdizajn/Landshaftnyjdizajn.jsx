@@ -15,6 +15,7 @@ import Six from '../../../Six/Six';
 import ScrollButton from '../../../ScrollButton/ScrollButton';
 import Dom from '../Contacts/Dom.png';
 import { Helmet } from 'react-helmet';
+import First from '../../../src2/pages/Landshaftnyjdizajn/Str/First';
 
 const Landshaftnyjdizajn = () => {
 
@@ -37,11 +38,15 @@ const Landshaftnyjdizajn = () => {
 
             <Three />
             <For />
-            <div className={sux.g}>
-                <ul className={sux.breadcrumb}>
-                    <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
-                    <li><a className={sux.b}>Ландшафтный дизайн</a></li>
-                </ul>  </div>
+            <div className={sux.g1}>   
+           <div className={sux.g}>
+           <ul className={sux.breadcrumb}>
+  <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
+  <li><a className={sux.b}>Ландшатный дизайн</a></li>
+</ul>  
+</div></div>
+
+             <First/>  
             <Five />
             <Form />
             <Six />
