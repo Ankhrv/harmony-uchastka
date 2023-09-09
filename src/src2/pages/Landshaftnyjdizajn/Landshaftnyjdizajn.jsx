@@ -16,6 +16,7 @@ import ScrollButton from '../../../ScrollButton/ScrollButton';
 import Dom from '../Contacts/Dom.png';
 import { Helmet } from 'react-helmet';
 import First from '../../../src2/pages/Landshaftnyjdizajn/Str/First';
+import For2 from '../../../src2/pages/Landshaftnyjdizajn/Vididesign/For2';
 
 const Landshaftnyjdizajn = () => {
 
@@ -37,6 +38,9 @@ const Landshaftnyjdizajn = () => {
 
 
             <Three />
+
+
+            <For2/>
             <For />
             <div className={sux.g1}>   
            <div className={sux.g}>
