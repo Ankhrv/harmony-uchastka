@@ -6,12 +6,16 @@
     font-family: Raleway;
     /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
 }
+
+
 /* отдельно картинка */
 .Ppic{
     display: flex;
     justify-content: space-around ;
-    padding: 0px 10px;
-    margin: 20px 0px 0px 0px;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 20px solid rgb(55, 47, 47) ;
+   
 }
 
 /* общий размер картинки */
@@ -29,7 +33,7 @@ padding-bottom:0px;
 
 /* главный для 4х */
 .Pic4{
-    margin: 0px 15% 0px 15%;
+    margin: 0px 12% 0px 12%;
  }
 
  /* оглавление */
@@ -41,9 +45,10 @@ font-family: Raleway;
 color: whitesmoke;
 text-align: center;
 font-weight: 300;
-padding-top: 30px;
+padding-top: 5px;
 margin-bottom: 0px;
 background-color: rgb(12, 117, 81); 
+color: rgb(55, 47, 47);
 }
 
 .Pic{ 
@@ -62,21 +67,151 @@ align-items: center;
 }
 
 /* картинка */
-.Pic2{ 
+.Pic2q { 
 background-color: rgb(13, 130, 89);
+background: url(franc2e.jpg);
+background-size: cover;
 width: 100%;
 height: 390px;
 justify-content: center;
 align-items: center; 
-padding: 25px;
+margin: 5px;
+/* border-radius: 15px 15px 0px 0px; */
+
 }
 
+/* картинка */
+.Pic2q1 { 
+    background-color: rgb(13, 130, 89);
+    background: url(english2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 390px;
+    justify-content: center;
+    align-items: center; 
+    margin: 5px;
+    /* border-radius: 15px 15px 0px 0px; */
+    
+    }
+
+    /* картинка */
+.Pic2q2 { 
+    background-color: rgb(13, 130, 89);
+    background: url(kantri.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 390px;
+    justify-content: center;
+    align-items: center; 
+    margin: 5px;
+    /* border-radius: 15px 15px 0px 0px; */
+    
+    }
+    .Pic2q3 { 
+        background-color: rgb(13, 130, 89);
+        background: url(sredizemnomorskiy.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 390px;
+        justify-content: center;
+        align-items: center; 
+        margin: 5px;
+        /* border-radius: 15px 15px 0px 0px; */
+        
+        }
+        .Pic2q4 { 
+            background-color: rgb(13, 130, 89);
+            background: url(japan.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 390px;
+            justify-content: center;
+            align-items: center; 
+            margin: 5px;
+            /* border-radius: 15px 15px 0px 0px; */
+            
+            }
+            .Pic2q5 { 
+                background-color: rgb(13, 130, 89);
+                background: url(provans.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 390px;
+                justify-content: center;
+                align-items: center; 
+                margin: 5px;
+                /* border-radius: 15px 15px 0px 0px; */
+                
+                }
+                .Pic2q6 { 
+                    background-color: rgb(13, 130, 89);
+                    background: url(skandinavskiy.jpg);
+                    background-size: cover;
+                    width: 100%;
+                    height: 390px;
+                    justify-content: center;
+                    align-items: center; 
+                    margin: 5px;
+                    /* border-radius: 15px 15px 0px 0px; */
+                    
+                    }
+                    .Pic2q7 { 
+                        background-color: rgb(13, 130, 89);
+                        background: url(hiteh.jpg);
+                        background-size: cover;
+                        width: 100%;
+                        height: 390px;
+                        justify-content: center;
+                        align-items: center; 
+                        margin: 5px;
+                        /* border-radius: 15px 15px 0px 0px; */
+                        
+                        }
  
-
-
-.Pic24:hover {
-   
+.Pic21{width: 100%;
+ 
 }
+.h1{ width: 100%;
+    background-color: rgb(106, 165, 130, 0.4);
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    border: none;
+    height: 291px;
+    /* border-radius: 15px 15px 0px 0px; */
+    padding: 30px 10px 10px 10px ;
+    text-align: center;
+    font-weight:600;
+    color: rgb(45, 41, 41);   
+
+}
+.h2{
+    margin-top: 0px;
+    font-family: Raleway;
+    font-weight: 800;
+    width: 100%;
+    background-color: rgb(34, 145, 106, 0.7);
+    background-color: rgb(106, 165, 130, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    padding: 30px;
+    /* border-radius: 15px 15px 0px 0px; */
+    color: rgb(45, 41, 41); 
+
+}
+
+.h2:hover {
+    background-color:rgb(34, 145, 106, 0.7);
+    background-color: rgb(106, 165, 130, 0.2);
+    opacity:initial;   
+}
+
+.Pic2:hover{background-color: aqua;
+   
+}   
 
 
 
@@ -91,7 +226,9 @@ padding-bottom: 100px;
 
 @media screen and (max-width: 1600px) {
   
- 
+    .Pic4{
+        margin: 0px 10% 0px 10%;
+     }
  
 }
 @media screen and (max-width: 1280px) {
@@ -99,18 +236,19 @@ padding-bottom: 100px;
     .txt{
         width: 100%;
         background-color: rgb(13, 130, 89);
-        font-size: 43px;
+        font-size: 37px;
         font-family: Raleway;
         color: whitesmoke;
         text-align: center;
         font-weight: 300;
         padding-top: 5px;
-        margin-bottom: -20px;
+        margin-bottom: 0px;
         background-color: rgb(12, 117, 81); 
+        color: rgb(55, 47, 47);
         }
 
     .Pic4{
-        margin: 0px 10.5% 0px 10.5%;
+        margin: 0px 7% 0px 7%;
      }
      .Glav{
         padding-bottom: 20px;
@@ -118,7 +256,26 @@ padding-bottom: 100px;
         
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:950px) {
+    .h1{
+        margin-top: 0px;
+        font-family: Raleway;
+        font-weight: 800;
+        width: 100%;
+        background-color: rgb(34, 145, 106, 0.7);
+        background-color: rgb(106, 165, 130, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0px;
+        /* border-radius: 15px 15px 0px 0px; */
+        color: rgb(45, 41, 41); 
+    
+    }
+
     .Pic24{
     
 
@@ -158,7 +315,12 @@ padding-bottom: 100px;
             margin-top: 10px;
         }
     }
-    @media screen and (max-width: 730px) {
+
+    @media screen and (max-width: 650px) {
+     
+    }
+    @media screen and (max-width: 830px) {
+       
         .txt{
            
             padding-top: 5px;
@@ -166,6 +328,9 @@ padding-bottom: 100px;
             background-color: rgb(12, 117, 81); 
             }
         .txt{padding-top: 5px;
+           
+
+            
          }
          .Pic300 :hover{
    
@@ -204,7 +369,7 @@ padding-bottom: 100px;
            font-size: 25px;
         }
         .txt{padding-top: 15px;
-            padding-bottom: 15px;
+            padding-bottom: 5px;
         }
         
         .Glav{
@@ -214,7 +379,7 @@ padding-bottom: 100px;
             }
     }
     @media screen and (max-width: 450px) {
-       
+       .txt{margin-bottom: 10px;}
          .Glav{
             width: 100%;
          
@@ -222,5 +387,7 @@ padding-bottom: 100px;
             .Pic4{
                 margin: 0px 0px;
              }
+
+           
 
     }
