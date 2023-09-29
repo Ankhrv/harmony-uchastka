@@ -15,20 +15,20 @@
     padding: 0px 0px;
     margin: 0px 0px 0px 0px;
     border: 20px solid rgb(55, 47, 47) ;
-   
+
 }
 
 /* общий размер картинки */
-.Pic300{ 
+.Pic300{
     display: flex;
-    width: 100%;   
+    width: 100%;
 }
 
 
 /* главный */
 .Glav{
 width: 100%;
-padding-bottom:0px; 
+padding-bottom:0px;
 }
 
 /* главный для 4х */
@@ -47,129 +47,129 @@ text-align: center;
 font-weight: 300;
 padding-top: 5px;
 margin-bottom: 0px;
-background-color: rgb(12, 117, 81); 
+background-color: rgb(12, 117, 81);
 color: rgb(55, 47, 47);
 }
 
-.Pic{ 
+.Pic{
 display: flex;
 /* width: 100%; */
 justify-content: center;
-align-items: center; 
+align-items: center;
 }
 
-.Pic200{ 
+.Pic200{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
-    margin:0px;   
+    margin:0px;
 }
 
 /* картинка */
-.Pic2q { 
+.Pic2q {
 background-color: rgb(13, 130, 89);
 background: url(franc2e.jpg);
 background-size: cover;
 width: 100%;
 height: 390px;
 justify-content: center;
-align-items: center; 
+align-items: center;
 margin: 5px;
 /* border-radius: 15px 15px 0px 0px; */
 
 }
 
 /* картинка */
-.Pic2q1 { 
+.Pic2q1 {
     background-color: rgb(13, 130, 89);
     background: url(english2.jpg);
     background-size: cover;
     width: 100%;
     height: 390px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin: 5px;
     /* border-radius: 15px 15px 0px 0px; */
-    
+
     }
 
     /* картинка */
-.Pic2q2 { 
+.Pic2q2 {
     background-color: rgb(13, 130, 89);
     background: url(kantri.jpg);
     background-size: cover;
     width: 100%;
     height: 390px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin: 5px;
     /* border-radius: 15px 15px 0px 0px; */
-    
+
     }
-    .Pic2q3 { 
+    .Pic2q3 {
         background-color: rgb(13, 130, 89);
         background: url(sredizemnomorskiy.jpg);
         background-size: cover;
         width: 100%;
         height: 390px;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
         margin: 5px;
         /* border-radius: 15px 15px 0px 0px; */
-        
+
         }
-        .Pic2q4 { 
+        .Pic2q4 {
             background-color: rgb(13, 130, 89);
             background: url(japan.jpg);
             background-size: cover;
             width: 100%;
             height: 390px;
             justify-content: center;
-            align-items: center; 
+            align-items: center;
             margin: 5px;
             /* border-radius: 15px 15px 0px 0px; */
-            
+
             }
-            .Pic2q5 { 
+            .Pic2q5 {
                 background-color: rgb(13, 130, 89);
                 background: url(provans.jpg);
                 background-size: cover;
                 width: 100%;
                 height: 390px;
                 justify-content: center;
-                align-items: center; 
+                align-items: center;
                 margin: 5px;
                 /* border-radius: 15px 15px 0px 0px; */
-                
+
                 }
-                .Pic2q6 { 
+                .Pic2q6 {
                     background-color: rgb(13, 130, 89);
                     background: url(skandinavskiy.jpg);
                     background-size: cover;
                     width: 100%;
                     height: 390px;
                     justify-content: center;
-                    align-items: center; 
+                    align-items: center;
                     margin: 5px;
                     /* border-radius: 15px 15px 0px 0px; */
-                    
+
                     }
-                    .Pic2q7 { 
+                    .Pic2q7 {
                         background-color: rgb(13, 130, 89);
                         background: url(hiteh.jpg);
                         background-size: cover;
                         width: 100%;
                         height: 390px;
                         justify-content: center;
-                        align-items: center; 
+                        align-items: center;
                         margin: 5px;
                         /* border-radius: 15px 15px 0px 0px; */
-                        
+
                         }
- 
+
 .Pic21{width: 100%;
- 
+
 }
 .h1{ width: 100%;
     background-color: rgb(106, 165, 130, 0.4);
@@ -182,11 +182,11 @@ margin: 5px;
     padding: 30px 10px 10px 10px ;
     text-align: center;
     font-weight:600;
-    color: rgb(45, 41, 41);   
+    color: rgb(45, 41, 41);
 
 }
 .h2{
-    margin-top: 0px;
+    margin: 0px;
     font-family: Raleway;
     font-weight: 800;
     width: 100%;
@@ -199,19 +199,20 @@ margin: 5px;
     font-size: 20px;
     padding: 30px;
     /* border-radius: 15px 15px 0px 0px; */
-    color: rgb(45, 41, 41); 
+    color: rgb(45, 41, 41);
 
 }
 
 .h2:hover {
     background-color:rgb(34, 145, 106, 0.7);
     background-color: rgb(106, 165, 130, 0.2);
-    opacity:initial;   
+    opacity:initial;    transition: 1s;
+    cursor: pointer;
 }
 
-.Pic2:hover{background-color: aqua;
-   
-}   
+.Pic2:hover{background-color: aqua; transition: 1s;
+
+}
 
 
 
@@ -219,20 +220,155 @@ margin: 5px;
 .Glav{
 width: 100%;
 background-color: rgb(47, 47, 47);
-background-color: rgb(12, 117, 81); 
+background-color: rgb(12, 117, 81);
 padding-bottom: 100px;
 }
 
 
 @media screen and (max-width: 1600px) {
-  
+
     .Pic4{
         margin: 0px 10% 0px 10%;
      }
- 
+
 }
 @media screen and (max-width: 1280px) {
-    
+    .h1{ width: 100%;
+        background-color: rgb(106, 165, 130, 0.4);
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        border: none;
+        height: 220px;
+        /* border-radius: 15px 15px 0px 0px; */
+        padding: 20px 10px 10px 10px ;
+        text-align: center;
+        font-weight:600;
+        color: rgb(45, 41, 41);
+        color: rgb(36, 34, 34);
+    }
+
+    .h2{
+        margin: 0px;
+        font-family: Raleway;
+        font-weight: 800;
+        width: 100%;
+        background-color: rgb(34, 145, 106, 0.7);
+        background-color: rgb(106, 165, 130, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        font-size: 20px;
+        padding: 21px;
+        /* border-radius: 15px 15px 0px 0px; */
+        color: rgb(45, 41, 41);
+
+    }
+
+    .Pic2q {
+        background-color: rgb(13, 130, 89);
+        background: url(franc2e.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        /* border-radius: 15px 15px 0px 0px; */
+
+        }
+
+        /* картинка */
+        .Pic2q1 {
+            background-color: rgb(13, 130, 89);
+            background: url(english2.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            /* border-radius: 15px 15px 0px 0px; */
+
+            }
+
+            /* картинка */
+        .Pic2q2 {
+            background-color: rgb(13, 130, 89);
+            background: url(kantri.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            /* border-radius: 15px 15px 0px 0px; */
+
+            }
+            .Pic2q3 {
+                background-color: rgb(13, 130, 89);
+                background: url(sredizemnomorskiy.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 300px;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
+                /* border-radius: 15px 15px 0px 0px; */
+
+                }
+                .Pic2q4 {
+                    background-color: rgb(13, 130, 89);
+                    background: url(japan.jpg);
+                    background-size: cover;
+                    width: 100%;
+                    height: 300px;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 5px;
+                    /* border-radius: 15px 15px 0px 0px; */
+
+                    }
+                    .Pic2q5 {
+                        background-color: rgb(13, 130, 89);
+                        background: url(provans.jpg);
+                        background-size: cover;
+                        width: 100%;
+                        height: 300px;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 5px;
+                        /* border-radius: 15px 15px 0px 0px; */
+
+                        }
+                        .Pic2q6 {
+                            background-color: rgb(13, 130, 89);
+                            background: url(skandinavskiy.jpg);
+                            background-size: cover;
+                            width: 100%;
+                            height: 300px;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 5px;
+                            /* border-radius: 15px 15px 0px 0px; */
+
+                            }
+                            .Pic2q7 {
+                                background-color: rgb(13, 130, 89);
+                                background: url(hiteh.jpg);
+                                background-size: cover;
+                                width: 100%;
+                                height: 300px;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 5px;
+                                /* border-radius: 15px 15px 0px 0px; */
+
+                                }
+
+
+
     .txt{
         width: 100%;
         background-color: rgb(13, 130, 89);
@@ -243,7 +379,7 @@ padding-bottom: 100px;
         font-weight: 300;
         padding-top: 5px;
         margin-bottom: 0px;
-        background-color: rgb(12, 117, 81); 
+        background-color: rgb(12, 117, 81);
         color: rgb(55, 47, 47);
         }
 
@@ -253,7 +389,51 @@ padding-bottom: 100px;
      .Glav{
         padding-bottom: 20px;
      }
-        
+
+}
+
+@media screen and (max-width: 1260px) {
+
+    .h1{ width: 100%;
+        background-color: rgb(106, 165, 130, 0.4);
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        border: none;
+        height: 220px;
+        /* border-radius: 15px 15px 0px 0px; */
+        padding: 0px ;
+        padding-top: 10px;
+        text-align: center;
+        font-weight:600;
+        color: rgb(45, 41, 41);
+        color: rgb(36, 34, 34);
+    }
+
+
+
+
+
+}
+@media screen and (max-width:1180px) {
+    .Pic4{
+        margin: 0px 5% 0px 5%;
+     }
+}
+
+@media screen and (max-width:1060px) {
+    .Pic300{
+        display: flex;
+        flex-direction: column;
+    }
+    .h1 {
+        padding:  20px 10px;
+    }
+
+    .Pic4{
+        margin: 0px 20% 0px 20%;
+     }
+
 }
 
 @media screen and (max-width:950px) {
@@ -272,93 +452,98 @@ padding-bottom: 100px;
         font-weight: 600;
         padding: 0px;
         /* border-radius: 15px 15px 0px 0px; */
-        color: rgb(45, 41, 41); 
-    
+        color: rgb(45, 41, 41);
+
     }
+    .Pic4{
+        margin: 0px 15% 0px 15%;
+     }
 
     .Pic24{
-    
+
 
 
         margin: 0px;
-  
+
         }
 
 
-.Pic2{ 
+.Pic2{
 
     background-color: rgb(255, 255, 255);
     width: 355px;
     width: 100%;
-  
+
     height: 300px;
-    
-    
-   
+
+
+
     padding: 15px;
-    
-    
-    
+
+
+
     }
-   
+
     .Pic300{
         display: flex;
         justify-content: space-between;
         width: 100%;}
-       
+
         .Glav{
             width: 100%;
-        
-           
+
+
             }
         .Pic24{
             margin-top: 10px;
         }
     }
 
-    @media screen and (max-width: 650px) {
-     
-    }
+
     @media screen and (max-width: 830px) {
-       
+
         .txt{
-           
+
             padding-top: 5px;
-            margin-bottom: -20px;
-            background-color: rgb(12, 117, 81); 
+            margin-bottom: 0px;
+            background-color: rgb(12, 117, 81);
             }
         .txt{padding-top: 5px;
-           
 
-            
+
+
+         }
+
+         .Pic4{
+            margin: 0px 10% 0px 10%;
          }
          .Pic300 :hover{
-   
+
         }
         .Glav{
             width: 100%;
           padding-bottom: 20px;
-         
+
             }
              .Pic300{
             display: flex;
             flex-direction: column;
         }
-    
-        .Pic2{ 
+
+        .Pic2{
 
             background-color: rgb(255, 255, 255);
             width: 100%;
-            
+
             /* align-items: center;
           justify-content: center; */
-            
+
             /* border-radius: 5px 5px 0px 0px; */
             /* height: 330px; */
             }
-      
+
              .Pic{
-              
+
              }
     }
     @media screen and (max-width: 650px) {
@@ -371,23 +556,204 @@ padding-bottom: 100px;
         .txt{padding-top: 15px;
             padding-bottom: 5px;
         }
-        
+
         .Glav{
             width: 100%;
-          
-        
+
+
             }
     }
+
+    @media screen and (max-width: 500px) {
+
+        .Pic4{
+            margin: 0px 5% 0px 5%;
+         }
+    }
     @media screen and (max-width: 450px) {
-       .txt{margin-bottom: 10px;}
+        .h1{ width: 100%;
+            background-color: rgb(106, 165, 130, 0.4);
+            display: flex;
+            justify-content: center;
+            margin-top: 0px;
+            border: none;
+            height: 220px;
+            /* border-radius: 15px 15px 0px 0px; */
+            padding: 20px 10px 10px 10px ;
+            text-align: center;
+            font-weight:600;
+            color: rgb(45, 41, 41);
+            color: rgb(36, 34, 34);
+        }
+
+        .h2{
+            margin: 0px;
+            font-family: Raleway;
+            font-weight: 800;
+            width: 100%;
+            background-color: rgb(34, 145, 106, 0.7);
+            background-color: rgb(106, 165, 130, 0.4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            font-size: 20px;
+            padding: 21px;
+            /* border-radius: 15px 15px 0px 0px; */
+            color: rgb(45, 41, 41);
+
+        }
+
+        .Pic2q {
+            background-color: rgb(13, 130, 89);
+            background: url(franc2e.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 350px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            /* border-radius: 15px 15px 0px 0px; */
+
+            }
+
+            /* картинка */
+            .Pic2q1 {
+                background-color: rgb(13, 130, 89);
+                background: url(english2.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 350px;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
+                /* border-radius: 15px 15px 0px 0px; */
+
+                }
+
+                /* картинка */
+            .Pic2q2 {
+                background-color: rgb(13, 130, 89);
+                background: url(kantri.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 350px;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
+                /* border-radius: 15px 15px 0px 0px; */
+
+                }
+                .Pic2q3 {
+                    background-color: rgb(13, 130, 89);
+                    background: url(sredizemnomorskiy.jpg);
+                    background-size: cover;
+                    width: 100%;
+                    height: 350px;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 5px;
+                    /* border-radius: 15px 15px 0px 0px; */
+
+                    }
+                    .Pic2q4 {
+                        background-color: rgb(13, 130, 89);
+                        background: url(japan.jpg);
+                        background-size: cover;
+                        width: 100%;
+                        height: 350px;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 5px;
+                        /* border-radius: 15px 15px 0px 0px; */
+
+                        }
+                        .Pic2q5 {
+                            background-color: rgb(13, 130, 89);
+                            background: url(provans.jpg);
+                            background-size: cover;
+                            width: 100%;
+                            height: 350px;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 5px;
+                            /* border-radius: 15px 15px 0px 0px; */
+
+                            }
+                            .Pic2q6 {
+                                background-color: rgb(13, 130, 89);
+                                background: url(skandinavskiy.jpg);
+                                background-size: cover;
+                                width: 100%;
+                                height: 350px;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 5px;
+                                /* border-radius: 15px 15px 0px 0px; */
+
+                                }
+                                .Pic2q7 {
+                                    background-color: rgb(13, 130, 89);
+                                    background: url(hiteh.jpg);
+                                    background-size: cover;
+                                    width: 100%;
+                                    height: 350px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 5px;
+                                    /* border-radius: 15px 15px 0px 0px; */
+
+                                    }
+
+                                    .h1{ width: 100%;
+                                        background-color: rgb(106, 165, 130, 0.4);
+                                        display: flex;
+                                        justify-content: center;
+                                        margin-top: 0px;
+                                        border: none;
+                                        height: 270px;
+                                        /* border-radius: 15px 15px 0px 0px; */
+                                        padding: 20px 10px 10px 10px ;
+                                        text-align: center;
+                                        font-weight:600;
+                                        color: rgb(45, 41, 41);
+                                        color: rgb(36, 34, 34);
+                                    }
+
+                                    .h2{
+                                        margin: 0px;
+                                        font-family: Raleway;
+                                        font-weight: 800;
+                                        width: 100%;
+                                        background-color: rgb(34, 145, 106, 0.7);
+                                        background-color: rgb(106, 165, 130, 0.4);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border: none;
+
+
+                                        /* border-radius: 15px 15px 0px 0px; */
+
+                                    }
+
+
+
+
+       .txt{margin-bottom: 0px;
+    background-color: whitesmoke;}
          .Glav{
             width: 100%;
          
+            padding: 0px;
+            /* background-color: blue; */ background-color: whitesmoke;
+
+
             }
             .Pic4{
                 margin: 0px 0px;
              }
 
-           
+
 
     }
