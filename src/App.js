@@ -1,53 +1,44 @@
 import './App.css';
 import React from "react";
-import Header from './Header/Header';
-import Menu from './Menu/Menu';
-import MenuBaner from './Baner/MenuBaner';
-import First from './Str/First';
-import Two from './Str2/Two';
-import Three from './Str3/Three';
-import For from './Str4/For';
-import Five from './Str5/Str5';
-import Form from './Form/Form';
-import Six from './Six/Six';
-import Seven from './Str7/Str7';
-import ScrollButton from './ScrollButton/ScrollButton';
-import WindowCall from './WindowCall/WindowCall';
-import { Helmet } from 'react-helmet';
+
+
+import './index.css';
+
+
+// import { render } from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Profile from './Profile/Profile';
+import App2 from './App2';
+// import HeaderandMenu from './src2/HeaderandMenu';
+import Actions from './src2/pages/Actions/Actions';
+import Price from './src2/pages/Price/Price';
+import Obslugivaniye from './src2/pages/Obslugivaniye/Obslugivaniye';
+import CoNtacts from './src2/pages/Contacts/CoNtacts';
+import Novinky from './src2/pages/Novinky/Novinky';
+import Derevja from './src2/pages/Derevja/Derevja';
+import Obrabotkadannyh from './src2/pages/Obrabotkadannyh/Obrabotkadannyh';
+import Landshaftnyjdizajn from './src2/pages/Landshaftnyjdizajn/Landshaftnyjdizajn';
 
 
 
 const App = () => {
   return (
 
-    <div className="App">
-      <Helmet
-        title="Гармония Участка"
-        meta={[
-          { "name": "description", "content": "Landscape design Saratov" }
-        ]}
-        link={[
-          { "rel": "icon", "href": "%PUBLIC_URL%/favicon33.ico" },
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App2 />} />
+      <Route path="/Profile" element={<Profile />} />
+      <Route path="/Contacts" element={<CoNtacts />} />
+      <Route path="/Actions" element={<Actions />} />
+      <Route path="/Price" element={<Price />} />
+      <Route path="/Obslugivaniye" element={<Obslugivaniye />} />
+      <Route path="/Novinky" element={<Novinky />} />
+      <Route path="/Rastenya" element={<Derevja />} />
+      <Route path="/Obrabotkadannyh" element={<Obrabotkadannyh />} />
+      <Route path="/Landshaftnyjdizajn" element={<Landshaftnyjdizajn />} />
 
-        ]}
-        // base={{ "href": "https://harmonyuchastka.ru/" }}
-      />
-
-
-      <Header />
-      <Menu />
-      <MenuBaner />
-      <First />
-      <Two />
-      <Three />
-      <For />
-      <Five />
-      <Form />
-      <Six />
-      <Seven />
-      <ScrollButton />
-      <WindowCall />
-    </div>
+    </Routes>
+  </BrowserRouter>
 
   );
 }
