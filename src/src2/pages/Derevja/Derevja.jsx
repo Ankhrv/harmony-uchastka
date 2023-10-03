@@ -13,15 +13,11 @@ const Derevja = () => {
 
 	return (
     <div className={sux.g0}>
-          <Helmet
-       
-       title="Растения"
-       meta={[
-       {"name": "description", "content": "Landscape design Saratov"}
-       ]}
-    //    base={{"href": "https://harmonyuchastka.ru/Rastenya/"}}
-
-       />
+       <Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Продажа растений и деревьев" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
            <Header />
            <Menu />
            <div className={sux.g}>

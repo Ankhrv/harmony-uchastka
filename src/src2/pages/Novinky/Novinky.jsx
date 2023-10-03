@@ -14,15 +14,11 @@ const Novinky = () => {
 
 	return (
          <div className={sux.g0}>
-          <Helmet
-       
-       title="Новинки"
-       meta={[
-       {"name": "description", "content": "Landscape design Saratov"}
-       ]}
-    //    base={{"href": "https://harmonyuchastka.ru/Novinky/"}}
-
-       />
+           <Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Продажа и монтаж водопадов" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
            <Header />
            <Menu />
            

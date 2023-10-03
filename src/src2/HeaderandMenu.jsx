@@ -10,7 +10,11 @@ const HeaderandMenu = () => {
 
 	return (
         <div>
-       
+         <Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Ландшафтный дизайн и озеленение в Саратове и области" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
            <Header />
            <Menu />
            <Seven />

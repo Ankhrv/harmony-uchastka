@@ -8,12 +8,19 @@ import sto3 from '../Str3/400.png';
 import sto4 from '../Str3/500.png';
 import sto5 from '../Str3/600.png';
 import sto6 from '../Str3/skob.png';
+import { Helmet } from 'react-helmet';
+
 
 const Three = () => {
     return (
    
 
 <div className={m.Glav}>
+<Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Монтаж систем автополива" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
 
 <div className={m.txt}><p className={m.txt2}>Порядок работ</p> 
 </div>

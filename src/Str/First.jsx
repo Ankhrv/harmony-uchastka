@@ -1,11 +1,16 @@
 import React from 'react';
 import k from './First.module.css';
-
+import { Helmet } from 'react-helmet';
 import hh1 from '../Str/hh1.png';
 
 const First = () => {
     return (
 <div className={k.Glav0}>
+<Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Проектирование монтаж и сервисное обслуживание" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
 <div className={k.h2}>Услуги нашей компании</div>
 <div className={k.Glav}>
 

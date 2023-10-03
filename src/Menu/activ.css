@@ -1,0 +1,19 @@
+.active-link, .active-link2, .active-link3, .active-link4, .active-link5, .active-link6, .active-link7, .active-link8 {
+    /* color: whitesmoke; */
+   display: flex;
+    background-color: rgb(190, 204, 204, 0.2);
+    background-size: cover;
+     }
+/* .notactive{
+ display: flex;
+ padding-left: 5px;
+  color: whitesmoke;
+  color: rgb(190, 204, 204);
+ width: 100%;
+}
+.notactive:hover{
+ width: 100%;
+ color: whitesmoke; 
+transition: 0.1s;
+border: 0px solid rgb(254, 254, 254);
+} */

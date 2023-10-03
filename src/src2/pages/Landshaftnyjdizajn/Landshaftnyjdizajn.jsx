@@ -22,15 +22,11 @@ const Landshaftnyjdizajn = () => {
 
     return (
         <div>
-                <Helmet
-       
-       title="Ландшатный дизайн"
-       meta={[
-       {"name": "description", "content": "Landscape design Saratov"}
-       ]}
-    //    base={{"href": "https://harmonyuchastka.ru/Landshaftnyjdizajn/"}}
-
-       />
+           <Helmet>
+        <title>Ландшатный дизайн Саратов</title>
+        <meta name="description" content="Ландшафтный дизайн и озеленение в Саратове и области" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
 
             <Header />
             <Menu />

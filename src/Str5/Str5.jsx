@@ -1,12 +1,18 @@
 import React from 'react';
 import './5.css';
-
+import { Helmet } from 'react-helmet';
 
 const Five = () => {
 
 	return (
 
-		<div><p className='PP'>Прайс - лист</p>
+		<div>
+			  <Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Прайс-лист и цена на услуги" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
+	  <p className='PP'>Прайс - лист</p>
 			<div className='GG'>
 
 				<table border="0px" width="100%"

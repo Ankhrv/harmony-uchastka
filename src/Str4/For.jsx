@@ -11,6 +11,7 @@ import { useRef } from 'react';
 import { useState } from "react";
 import Popup from 'reactjs-popup';
 import vv from '../WindowCall/Phone.module.css';
+import { Helmet } from 'react-helmet';
 
 const For = () => {
   
@@ -39,6 +40,11 @@ const For = () => {
   return (
     
 <div className={n.Glav}>
+<Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Ландшафтный дизайн и озеленение в Саратове и области" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
 {/* <div className={n.GlavB}> */}
 <div className={n.txt}><p>Примеры наших работ </p> 
 </div>

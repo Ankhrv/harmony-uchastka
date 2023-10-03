@@ -8,11 +8,18 @@ import pp5 from '../Str2/451.jpg';
 import pp6 from '../Str2/plan2.jpg';
 import pp7 from '../Str2/44.jpg';
 import pp8 from '../Str2/AA.jpg';
+import { Helmet } from 'react-helmet';
 
 const Two = () => {
     return (
     
 <div className={l.Glavv}>
+<Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Рулонный газон, посадка деревьев и кустарников, монтаж системы автополива" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
+
 
 <div className={l.Zagv}><p className={l.Zagvh2}>Виды работ</p>
 </div>

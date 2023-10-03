@@ -138,8 +138,11 @@
     border-radius: 10px;
 }
 
+
 .q5 a:hover {
     color: aqua;
+transition: 1s;
+    /* background-color: rgb(13, 130, 89, 0.9); */
 }
 
 @media screen and (max-width: 1600px) {

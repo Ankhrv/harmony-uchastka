@@ -21,18 +21,11 @@ const App2 = () => {
   return (
 
     <div className="App">
-      <Helmet
-        title="Гармония Участка"
-        meta={[
-          { "name": "description", "content": "Landscape design Saratov" }
-        ]}
-        link={[
-          { "rel": "icon", "href": "%PUBLIC_URL%/favicon33.ico" },
-
-        ]}
-        // base={{ "href": "https://harmonyuchastka.ru/" }}
-      />
-
+        <Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Ландшафтный дизайн и озеленение в Саратове и области" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
 
       <Header />
       <Menu />

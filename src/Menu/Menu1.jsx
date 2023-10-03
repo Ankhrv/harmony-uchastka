@@ -2,7 +2,19 @@ import React from 'react';
 import a from './Menu.module.css';
 import b from './mobilmenu/mobilmenu.module.css';
 import Sticky from 'react-stickynode';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import '../Menu/activ.css';
+
+
+const setActive = ({isActive}) => isActive ? 'active-link' : 'notactive' ;
+const setActive2 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
+const setActive3 = ({isActive}) => isActive ? 'active-link3' : 'notactive3' ;
+const setActive4 = ({isActive}) => isActive ? 'active-link4' : 'notactive4' ;
+const setActive5 = ({isActive}) => isActive ? 'active-link5' : 'notactive5' ;
+const setActive6 = ({isActive}) => isActive ? 'active-link6' : 'notactive6' ;
+const setActive7 = ({isActive}) => isActive ? 'active-link7' : 'notactive7' ;
+const setActive8 = ({isActive}) => isActive ? 'active-link8' : 'notactive8' ;
+
 
 
 const Menu1 = () => {
@@ -16,49 +28,51 @@ const Menu1 = () => {
 
                     <div className={a.navbar}>
                         <ul className={a.mmenuu}>
-                            <li> <Link to="/">Автополив</Link>
+                            <li> <NavLink to="/" >Автополив</NavLink>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Link</a></li>
                                 </ul> */}
                             </li>
-                            <li> <Link to="/Landshaftnyjdizajn">Ландшафтный дизайн</Link>
+                            <li> <NavLink to="/Landshaftnyjdizajn" className={setActive2}>Ландшафтный дизайн</NavLink>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Link</a></li>
                                     <li><a href='#'>Link</a></li>
                                 </ul> */}
                             </li>
-                            <li><a href='#'>Озеленение и благоустройство</a>
+                            <li><NavLink to="/Actions" className={setActive8}>Озеленение и благоустройство</NavLink>
+                                {/* <a href='#'>Озеленение и благоустройство</a>
                                 <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Дизайн-проект</a></li>
                                     <li><a href='#'>Link</a></li>
                                     <li><a href='#'>Link</a></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><Link to="/Rastenya">Растения</Link>
+                            <li><NavLink to="/Rastenya" className={setActive3}>Растения</NavLink>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Деревья</a></li>
                                 </ul> */}
                             </li>
-                            <li><Link to="/Price">Прайс-лист</Link>
+                            <li><NavLink to="/Price" className={setActive4}>Прайс-лист</NavLink>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>расчет стоимости</a></li>
                                 </ul> */}
                             </li>
-                            <li><Link to="/Obslugivaniye">Консервация и обслуживание</Link>
+                            <li><NavLink to="/Obslugivaniye" className={setActive5}>Консервация и обслуживание</NavLink>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>гарантии</a></li>
                                 </ul> */}
                             </li>
-                            <li><Link to="/Novinky">Новинки сезона</Link>
+                            <li><NavLink to="/Novinky" className={setActive6}>Новинки сезона</NavLink>
                                 {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Водопады</a></li>
                                 </ul> */}
                             </li>
-                            <li><a>О нас</a>
+                            <li><NavLink to="/Contacts" className={setActive7}>О нас</NavLink>
+                                {/* <a>О нас</a>
                             <ul className={a.ssubmenuu2}>
-                                    <li><Link to="/Contacts">Контаты</Link></li>
-                                    <li><Link to="/Actions">Акции</Link></li>
-                                </ul>
+                                    <li><NavLink to="/Contacts" className={setActive7}>Контаты</NavLink></li>
+                                    <li><NavLink to="/Actions" className={setActive8}>Акции</NavLink></li>
+                                </ul> */}
                             </li>
                         </ul>
                     </div>

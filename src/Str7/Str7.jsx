@@ -4,13 +4,18 @@ import ii1 from '../Str7/icons82.png' ;
 import ii2 from '../Str7/icons8.png' ;
 import ii3 from '../Str7/icons81.png' ;
 import ii4 from '../Str7/icons83png.png' ;
-
+import { Helmet } from 'react-helmet';
 
 
 const Seven = () => {
 
 	return (
 <div className={fm.firstdiv}>
+<Helmet>
+        <title>Гармония Участка</title>
+        <meta name="description" content="Обслуживание систем автополива" />
+        <meta name="theme-color" content="#0D8259" />
+      </Helmet>
     <div className={fm.f1div}>
 <div className={fm.f2div}>
 <ul>
