@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Profile from './Profile/Profile';
 import App2 from './App2';
 // import HeaderandMenu from './src2/HeaderandMenu';
-import Actions from './src2/pages/Actions/Actions';
+import Designnproject from './src2/pages/Designnproject/Designnproject';
 import Price from './src2/pages/Price/Price';
 import Obslugivaniye from './src2/pages/Obslugivaniye/Obslugivaniye';
 import CoNtacts from './src2/pages/Contacts/CoNtacts';
@@ -24,7 +24,7 @@ const App = () => {
       <Route path="/" element={<App2 />} />
       <Route path="/Profile" element={<Profile />} />
       <Route path="/Contacts" element={<CoNtacts />} />
-      <Route path="/Actions" element={<Actions />} />
+      <Route path="/Designnproject" element={<Designnproject />} />
       <Route path="/Price" element={<Price />} />
       <Route path="/Obslugivaniye" element={<Obslugivaniye />} />
       <Route path="/Novinky" element={<Novinky />} />

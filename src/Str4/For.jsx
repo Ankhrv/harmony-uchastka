@@ -16,6 +16,7 @@ import { Helmet } from 'react-helmet';
 const For = () => {
   
   const form = useRef();
+  
   const [phone, setPhone] = React.useState("");
 
   const [buttonText, setButtonText] = useState("Отправить");
@@ -35,17 +36,17 @@ const For = () => {
       setButtonText("Sending Failed");
   });
 };
-  
-  
+   
   return (
     
 <div className={n.Glav}>
+
 <Helmet>
         <title>Гармония Участка</title>
         <meta name="description" content="Ландшафтный дизайн и озеленение в Саратове и области" />
         <meta name="theme-color" content="#0D8259" />
       </Helmet>
-{/* <div className={n.GlavB}> */}
+
 <div className={n.txt}><p>Примеры наших работ </p> 
 </div>
 <div className={n.Pic4}>

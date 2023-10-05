@@ -1,11 +1,11 @@
 import React from 'react';
 import с from './Wind2.module.css';
-import im1 from '../Baner/list.png';
-import im2 from '../Baner/check.png';
-
+import im1 from './../list.png';
+import im2 from './../check.png';
 
 const Wind2 = () => {
     return (
+
          <div className={с.oo}> 
          
          <div className={с.e1}>
@@ -40,8 +40,7 @@ const Wind2 = () => {
                 </div></div>
             </div>
 
-
-
     );
 }
+
 export default Wind2;

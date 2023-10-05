@@ -98,19 +98,17 @@ form{
         color: white;
         margin-top: 0px; 
     }
-    .Tt2{
+
+ .Tt2{
  text-decoration: none;
  color: rgb(13, 130, 89);
  font-weight: 600;
     } 
-      .Tt2:hover{
-        
-        color: rgb(19, 161, 114);
-     
+
+      .Tt2:hover{       
+        color: rgb(19, 161, 114);  
            }
 
-
- 
     input{
         margin: 5px 0px 0px 0px;
         padding: 8px 10px;
@@ -120,8 +118,7 @@ form{
         border: solid 1px rgb(0, 0, 0, 0.2);
         outline:0;
     }
-
-   
+  
     textarea{
         margin: 5px 0px 0px 0px;
         padding: 8px 10px;
@@ -132,6 +129,7 @@ form{
         border: solid 1px rgb(0, 0, 0, 0.2);
         outline:0;  
     }
+
     .knop4{
         background-color: rgb(13, 130, 89);
        border: 0;
@@ -147,46 +145,44 @@ form{
         cursor: pointer;
         /* border-radius: 1% 1% 1% 1%; */
     }
+
     .knop4:hover{
         background-color: rgb(29, 92, 73);
     
     }
+
     @media screen and (max-width: 1600px) {
-        form{
-          
+        form{         
             width:100%;
             margin-right:0% ;
             padding:0px 0px;
-            font-family: Raleway;
-            
-            
+            font-family: Raleway;            
             height:100%;
             display: flex;
-            flex-direction: column;
-            
+            flex-direction: column;           
             }
-            .GL{width: 50%;margin-right: 2.5%;}
+
+            .GL{
+                width: 50%;
+                margin-right: 2.5%;
+            }
     }
     @media screen and (max-width: 650px) {
-        .GL{width: 100%;
-            /* background-color: aquamarine; */
-          
+
+        .GL{
+            width: 100%;        
         }
+
         form{
             margin:0px 2.5% ;
         }
-            .ui{
-           
-            padding-top:0px;
-         
-        
+
+            .ui{        
+            padding-top:0px;      
         }  
 
         .knop4{
           font-size: 14px;
-            margin-top: 10px;
-           
-    
-        }
-      
+          margin-top: 10px;   
+        }      
     }

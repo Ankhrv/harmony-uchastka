@@ -61,11 +61,7 @@
     .hh {
         /*   общий для win1 win2  */
         display: flex;
-         /* margin-left: 10%;
-        margin-right: 10%;  */
-        /* justify-content: center; */
-        flex-direction: column;}
-       
+        flex-direction: column;}    
     .k {
         /* baner */
         background: url(5.jpg);
@@ -75,16 +71,11 @@
         width: 100%;
         /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
         height: 700px;
-        margin-top: 30px;
-    
-        
-        
+        margin-top: 30px;      
     }
-
 }
 
 @media screen and (max-width: 520px) {
- 
        
     .k {
         /* baner */
@@ -95,11 +86,7 @@
         width: 100%;
         /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
         height: 780px;
-        margin-top: 30px;
-    
-        
-        
+        margin-top: 30px;       
     }
-
 }
 

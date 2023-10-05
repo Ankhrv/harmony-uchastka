@@ -12,7 +12,8 @@
     justify-content: space-between;
 }
 
- .p {  /* Проектирование и монтаж систем автополива в Саратове */
+.p {
+    /* Проектирование и монтаж систем автополива в Саратове */
     margin: 0;
     margin-top: 66px;
     color: rgb(193, 251, 225);
@@ -24,7 +25,8 @@
     text-shadow: 1px 1px 2px rgb(21, 11, 13);
 }
 
-.p2 {/* Дизайн, проектирование и монтаж систем автополива участков в Саратове и Саратовской области. */
+.p2 {
+    /* Дизайн, проектирование и монтаж систем автополива участков в Саратове и Саратовской области. */
     color: rgb(193, 251, 225);
     color: white;
     font-size: 21px;
@@ -96,6 +98,7 @@
         margin: 10px 0px 40px 20px;
     }
 }
+
 @media screen and (max-width: 1600px) {
 
     .p {
@@ -117,7 +120,6 @@
 }
 
 @media screen and (max-width: 1280px) {
-
 
     .p {
         display: flex;
@@ -141,8 +143,8 @@
     }
 }
 
-@media screen and (max-width: 907px){
-    
+@media screen and (max-width: 907px) {
+
     .p {
         display: flex;
         justify-content: flex-start;
@@ -153,8 +155,9 @@
         margin-top: 0px;
     }
 }
-@media screen and (max-width: 750px){
-    
+
+@media screen and (max-width: 750px) {
+
     .p {
         display: flex;
         justify-content: flex-start;
@@ -164,6 +167,7 @@
         font-family: Raleway;
         margin-top: 0px;
     }
+
     .p2 {
         color: rgb(193, 251, 225);
         color: white;
@@ -173,6 +177,7 @@
         margin: 0px 0px 40px 0px;
     }
 }
+
 @media screen and (max-width: 440px) {
     .p2 {
         color: rgb(193, 251, 225);

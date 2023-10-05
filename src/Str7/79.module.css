@@ -10,54 +10,44 @@
 	width: 12px;
 	margin-right: 15px;
 }
+
 .ii21{
-	width: 12px;
+width: 12px;
 margin-right: 10px;
 }
-.firstdiv{/* главный див подвала */
-	
-	
-width: 100%;
 
-height: auto;
-
-	background-color: rgb(23, 84, 62);
-	
-
+.firstdiv{/* главный див подвала */	
+    width: 100%;
+    height: auto;
+	background-color: rgb(23, 84, 62);	
 }
+
 .f1div{
 	display: flex;
 	padding-bottom: 40px;
 	justify-content: center;
 	margin: 0% 10%;
 }
+
 .f2div{/* столбцы */
-width: 100%;
-	/* background-color: aquamarine; */
-	margin: 30px 10px 10px 0px ;
-	
+    width: 100%;
+	margin: 30px 10px 10px 0px ;	
 	color: white;
 	font-weight: 500;
 	font-size: 15px;
-
 }
+
 .Liclass{
-	
-	/* text-decoration-line:underline; */
 	padding-bottom: 5px;
-  color: #ffffff;
-  /* background-image:
-    repeating-linear-gradient(180deg, transparent, transparent 16px, #ffffff 20px ); */
+    color: #ffffff;
 	border-bottom: 1px solid #fffefe;
 	font-size: 20px;
 	font-family: Raleway;
 	margin: 15px 0px;
-	/* padding-bottom: -5px; */
 	color: white;
 	font-weight: 500;
-
-
 }
+
 .Liclass1{
 	font-size: 15px;
 	font-family: Raleway;

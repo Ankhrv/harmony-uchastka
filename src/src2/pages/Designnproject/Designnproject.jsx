@@ -8,7 +8,7 @@ import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
 import { Helmet } from 'react-helmet';
 
-const Actions = () => {
+const Designnproject = () => {
 
 	return (
         <div className={sux.go}>
@@ -37,5 +37,4 @@ const Actions = () => {
     );
 }
 
-
-export default Actions;
+export default Designnproject;

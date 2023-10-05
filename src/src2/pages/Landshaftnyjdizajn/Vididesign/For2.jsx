@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import n from './For2.module.css';
-import france from './france.jpg';
-import english from './english.jpg';
-import japan from './japan.jpg';
-import kantri from './kantri.jpg';
+// import france from './france.jpg';
+// import english from './english.jpg';
+// import japan from './japan.jpg';
+// import kantri from './kantri.jpg';
 
 // import france from './france.jpg';
 // import france from './france.jpg';

@@ -14,15 +14,19 @@
     /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
 }
 
-.ii2, .ii3 , .ii1, .ii4 , .ii{
-    /* width: 50px; */
+.ii2,
+.ii3,
+.ii1,
+.ii4,
+.ii {
     width: 27px;
 }
-.ii1{width: 18px;}
 
+.ii1 {
+    width: 18px;
+}
 
-
- .q111 {
+.q111 {
     /* общий  */
     display: flex;
     justify-content: space-between;
@@ -33,14 +37,12 @@
 .q1 {
     /* HU and harmony uchastka */
     display: flex;
-   
 }
 
-.logcont{
+.logcont {
     display: flex;
     margin-left: 10%;
     width: 50%;
-    /* background-color: blueviolet;  */ 
 }
 
 .q01 {
@@ -50,7 +52,6 @@
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    
 }
 
 .q01 a {
@@ -78,23 +79,19 @@
     /* telefon  */
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     font-size: 18px;
     font-family: BalooDa2;
-    
     font-style: initial;
     font-weight: 600;
     padding-left: 0px;
-    /* background-color: brown; */
-    width: 50%; 
+    width: 50%;
 }
-
 
 .q33 a {
     text-decoration: none;
     color: rgb(13, 130, 89);
     text-align: center;
-
 }
 
 .q4 {
@@ -138,21 +135,19 @@
     border-radius: 10px;
 }
 
-
 .q5 a:hover {
     color: aqua;
-transition: 1s;
-    /* background-color: rgb(13, 130, 89, 0.9); */
+    transition: 1s;
 }
 
 @media screen and (max-width: 1600px) {
-    .logcont{
+    .logcont {
         display: flex;
-        margin-left:0px;
+        margin-left: 0px;
         width: 50%;
         /* background-color: blueviolet; */
     }
-    
+
     .q111 {
         /* общий  */
         display: flex;
@@ -160,62 +155,50 @@ transition: 1s;
         background-color: whitesmoke;
         margin: 4px 0px;
     }
-    
-.q5 {
-    /* войти */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Raleway;
-    font-style: initial;
-    font-weight: 0;
-    /* padding-left: 50px; */
-    /* padding-right: 10px; */
-    /* margin-left: -110px; */
-    /* background-color: brown; */
-margin-right: 5%;
-}}
+
+    .q5 {
+        /* войти */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: Raleway;
+        font-style: initial;
+        font-weight: 0;
+        margin-right: 5%;
+    }
+}
 
 @media screen and (max-width: 960px) {
-  
-   
-.logcont{
-    display: flex;
-    flex-direction: column;  
-    align-items: center; 
-    margin-left: 0%;
-    width: 100%;
-       
-}
-      
-       
-        /* background-color: blueviolet; */
-        
-        
-    
-    
-    .q4 {
-    /* выезд и расчет */
-    display: flex;
-   
-    
-    text-align: center;
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 0;
-    padding-left: 0px;
-}
 
-.q111 {
-    /* общий  */
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    background-color: whitesmoke;
-    margin: 4px 0px;
-}
+    .logcont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .q4 {
+        /* выезд и расчет */
+        display: flex;
+        text-align: center;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 0;
+        padding-left: 0px;
+    }
+
+    .q111 {
+        /* общий  */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: whitesmoke;
+        margin: 4px 0px;
+    }
+
     .q111>.q5,
     .q5 a {
         text-align: center;
@@ -227,23 +210,10 @@ margin-right: 5%;
         /* telefon  */
         display: flex;
         flex-direction: column;
-        
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
         font-family: BalooDa2;
         font-style: initial;
         font-weight: 800;
-         /* padding-left: 10px; */
-        
-        /* background-color: aquamarine; */
     }
-
-    .q1 {
-        /* HU and harmony uchastka */
-      
-    
-    
-    
-    
-    }
-} 
+}

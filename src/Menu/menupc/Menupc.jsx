@@ -1,9 +1,9 @@
 import React from 'react';
-import a from './Menu.module.css';
-import b from './mobilmenu/mobilmenu.module.css';
+import a from './../Menu.module.css';
+import b from './../mobilmenu/mobilmenu.module.css';
 import Sticky from 'react-stickynode';
 import { NavLink } from "react-router-dom";
-import '../Menu/activ.css';
+import '../../Menu/activ.css';
 
 
 const setActive = ({isActive}) => isActive ? 'active-link' : 'notactive' ;
