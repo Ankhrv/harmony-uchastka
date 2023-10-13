@@ -382,7 +382,9 @@ cellPadding="8" cellSpacing="0" id="table">
 <td>1 штука</td>
 <td>от 2000</td>
 </tr>
+
 </tbody>
+
 </table>
 </div>
 
@@ -391,6 +393,11 @@ cellPadding="8" cellSpacing="0" id="table">
      
      </div>   
  </div>
+                <div className="dropdown12">
+    
+    <div className="kn122"><div className="knn12"></div>
+    <p className="dropbtn12">В разделе опубликован актуальный прайс-лист с ценами на ландшафтные работы. Уточнить стоимость товаров и услуг компании «Гармония участка» Вы можете по указанным на сайте телефонам.</p>
+    </div>  </div>
 
  
 
