@@ -5,7 +5,7 @@ import Menu from '../../../Menu/Menu';
 import Seven from '../../../Str7/Str7';
 import WindowCall from '../../../WindowCall/WindowCall';
 import MenuBaner2 from '../Landshaftnyjdizajn/Baner/MenuBaner2';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import sux from '../Contacts/CoNtacts.module.css';
 import Three from '../../../Str3/Three';
 import For from '../../../Str4/For';
@@ -41,8 +41,8 @@ const Landshaftnyjdizajn = () => {
             <div className={sux.g1}>   
            <div className={sux.g}>
            <ul className={sux.breadcrumb}>
-  <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
-  <li><a className={sux.b}>Ландшатный дизайн</a></li>
+  <li><NavLink to="/"><img className={sux.Dom} src={Dom}></img></NavLink></li>
+  <li><a name="LD" className={sux.b}>Ландшатный дизайн</a></li>
 </ul>  
 </div></div>
 
