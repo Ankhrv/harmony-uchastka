@@ -4,7 +4,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Profile from './Profile/Profile';
 import UserProfile from './Profile/UserProfile';
-import Roomprofile from './Components/signin/roomprofile';
+import UserProfileinfo from './Profile/UserProfileInfo';
 import App2 from './App2';
 import App2auth from './App2auth';
 // import HeaderandMenu from './src2/HeaderandMenu';
@@ -36,7 +36,7 @@ const App = () => {
      
       <Route path="/UserProfile" element={<UserProfile />} />
       <Route path="/login" element={<Profile />} />
-      <Route path="/Roomprofile" element={<Roomprofile />} />
+      <Route path="/UserProfileinfo" element={<UserProfileinfo />} />
       <Route path="/Contacts" element={<CoNtacts />} />
       <Route path="/Designnproject" element={<Designnproject />} />
       <Route path="/Price" element={<Price />} />

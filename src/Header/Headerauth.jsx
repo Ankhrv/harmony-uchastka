@@ -47,10 +47,11 @@ const Headerauth = () => {
             <div className={s.q4}>
                 <a><img src={logo} alt='logo' className={s.ii}></img> Выезд и расчёт - бесплатно</a>
             </div>
-
+            
+           <div className={s.imm}><Link to="/UserProfileinfo"><img className={s.q6} src={user} alt='user'></img></Link></div> 
             <div className={s.q5}>
-            {/* <div className={s.q6}><UserButton afterSignOutAllUrl="/" /> */}
-           {/* <div className={s.imm}><Link to="/UserProfile"><img  src={user} alt='user'></img></Link></div>  */}
+            
+            
             <a onClick={Userfront.logout} className={s.exit} >Выход</a> </div>
           
                {/* <a href='/sign-in'>Войти</a> */}

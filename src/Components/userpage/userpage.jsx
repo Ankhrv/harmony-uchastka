@@ -20,10 +20,12 @@ import React from 'react';
         accountName: "",
         password: "",
         passwordVerify: "",
+        alertMessage: "",
       };
   
       this.handleInputChange = this.handleInputChange.bind(this); 
       this.handleSubmit = this.handleSubmit.bind(this);
+      this.setAlertMessage = this.setAlertMessage.bind(this);
     }
   
     // Whenever an input changes value, change the corresponding state variable
@@ -35,9 +37,10 @@ import React from 'react';
       });
     }
   
-    // Handle the form submission by calling Userfront.signup()
     handleSubmit(event) {
       event.preventDefault();
+      // Reset the alert to empty
+      this.setAlertMessage();
       // Call Userfront.signup()
       Userfront.signup({
         method: "password",
@@ -45,9 +48,17 @@ import React from 'react';
         password: this.state.password,
         data: {
           accountName: this.state.accountName,
+          email: this.state.email,
         },
+      }).catch((error) => {
+        this.setAlertMessage(error.message);
       });
     }
+  
+    setAlertMessage(message) {
+      this.setState({ alertMessage: message });
+    }
+  
   
     render() {
 
@@ -111,7 +122,7 @@ import React from 'react';
         
         type="submit">Продолжить</button>
 
-      <div className={f.Err}></div>
+      <div className={f.Err}> {this.state.alertMessage}</div>
     
       <div className={f.Cap}> 
      <ReCAPTCHA  sitekey={process.env.REACT_APP_SITE_KEY} /> 

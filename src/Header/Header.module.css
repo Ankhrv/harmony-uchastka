@@ -15,8 +15,11 @@
 }
 
 .imm{
-    width: 20px;
-    height: 20px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: -15px;
+    margin-bottom: -10px; */
+    padding: 0px;
 }
 
 .ii2,
@@ -132,15 +135,14 @@
     margin-right: 10%;
 }
 .q6 {
-    padding-left: 16px;
+   
+    width: 43px;
+    /* padding-left: 16px; */
     /* padding-top: 2px;
     padding-bottom: 1px; */
-    margin-top: 2px;
+    margin-top: 27px;
     /* border: 1px solid rgb(19, 71, 48); */
-    border-radius: 10px;
-    background-color:aquamarine;
-    background-color: rgb(19, 121, 89);
-    background-color: whitesmoke;
+   
 }
 
 .exit{
@@ -192,6 +194,14 @@
 
 @media screen and (max-width: 960px) {
 
+    .imm{
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        margin-bottom: -10px;
+        padding: 0px;
+    }
+
     .logcont {
         display: flex;
         flex-direction: column;
@@ -228,7 +238,7 @@
     .q6 {
         /* войти */
         display: flex;
-        padding: 0px; 
+        padding: 0px;
         justify-content: center;
         border: none;
         background:none;
