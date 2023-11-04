@@ -20,7 +20,9 @@ import { Helmet } from 'react-helmet';
 const App2 = () => {
   return (
 
+    
     <div className="App">
+       
         <Helmet>
         <title>Гармония Участка</title>
         <meta name="description" content="Ландшафтный дизайн и озеленение в Саратове и области" />

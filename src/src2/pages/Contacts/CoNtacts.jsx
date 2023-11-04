@@ -13,7 +13,6 @@ import { BsTelephone } from 'react-icons/bs';
 import { BsMailbox } from 'react-icons/bs';
 import { BsClock } from 'react-icons/bs';
 import { Helmet } from 'react-helmet';
-
 import k from '../Novinky/Novinky.module.css';
 
 const CoNtacts = () => {

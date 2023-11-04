@@ -4,6 +4,10 @@
     background-color: rgb(190, 204, 204, 0.2);
     background-size: cover;
     }
+    .active-link12{
+        color: black;
+    
+        }
 /* .notactive{
  display: flex;
  padding-left: 5px;

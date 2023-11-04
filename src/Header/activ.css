@@ -1,0 +1,22 @@
+.active-link{
+    /* color: whitesmoke; */
+  
+    }
+    .active-link{
+        text-decoration: none;
+        color: black;
+    
+        }
+ .notactive{
+ /* background-color: bisque; */
+ color: rgb(13, 13, 13, 0.5);
+ 
+ margin: 0;
+ padding: 0;
+}
+.notactive:hover{
+ width: 100%;
+ color:rgb(13, 130, 89); 
+transition: 0.1s;
+border: 0px solid rgb(254, 254, 254);
+} 

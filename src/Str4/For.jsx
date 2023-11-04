@@ -2,7 +2,7 @@ import React from 'react';
 import n from './For.module.css';
 import dom1 from '../Str4/dom4.jpg';
 import dom2 from '../Str4/dom2.jpg';
-import dom3 from '../Str4/dom3.jpg';
+import dom3 from '../Str4/dom1.jpg';
 import dom7 from '../Str4/dom7.jpg';
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';

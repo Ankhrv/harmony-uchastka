@@ -5,10 +5,17 @@ import tel from '../Header/logo.messangers/77.png';
 import tel2 from '../Header/logo.messangers/32.png';
 import tel3 from '../Header/logo.messangers/33.png';
 import tel4 from '../Header/logo.messangers/34.png'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+// // import { UserButton } from "@clerk/clerk-react";
+
+import './activ.css';
+
 
 const Header = () => {
+
+    const setActive55 = ({isActive}) => isActive ? 'active-link' : 'notactive' ;
+
     return (
 
         <div className={s.q111}>
@@ -41,8 +48,12 @@ const Header = () => {
             </div>
 
             <div className={s.q5}>
-                <Link to="/Profile">Войти</Link>
+               {/* <a href='/sign-in'>Войти</a> */}
+            
+                {/* <div className={s.q6}><UserButton /></div>  */}
+                <NavLink to="/login">Войти</NavLink> 
             </div>
+           
         </div>
 
 
