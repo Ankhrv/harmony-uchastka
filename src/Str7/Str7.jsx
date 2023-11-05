@@ -124,7 +124,7 @@ const Seven = () => {
 <div className={fm.f2div}>
 <ul>
         <li className={fm.Liclass}>Личный кабинет</li>
-        <NavLink to="/UserPage" style={{ textDecoration: 'none'}} > <li className={fm.Liclass1}>Личный кабинет</li> </NavLink>
+        <NavLink to="/UserProfileinfo" style={{ textDecoration: 'none'}} > <li className={fm.Liclass1}>Личный кабинет</li> </NavLink>
         <li className={fm.Liclass1}>История заказа</li>
         <li className={fm.Liclass1}>Закладки</li>
         <li className={fm.Liclass1}>Рассылка</li>

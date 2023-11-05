@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Dom from '../src2/pages/Contacts/Dom.png';
 import sux from '../src2/pages/Contacts/CoNtacts.module.css';
-import Header from '../Header/Header';
+import Headerauth from '../Header/Headerauth';
 import Menu from '../Menu/Menu';
 import Seven from '../Str7/Str7';
 import WindowCall from '../WindowCall/WindowCall';
 import Profileinfo from '../Components/profileinfo/profileinfo';
+import PasswordResetForm from '../Components/resetpas/resetpas';
+
 
 const UserProfile = () => {
 
@@ -15,7 +17,7 @@ const UserProfile = () => {
 	return (
 		<div className={sux.g0}>
 		
-<Header />
+<Headerauth />
 <Menu />
 
 <div className={sux.g1}>  <div className={sux.g}>
@@ -24,8 +26,8 @@ const UserProfile = () => {
 <li><a className={sux.b}>Личный кабинет</a></li>
 </ul>  
 </div></div>
-
-<Profileinfo/>
+<PasswordResetForm />
+{/* <Profileinfo /> */}
 <Seven />
 <WindowCall />
          

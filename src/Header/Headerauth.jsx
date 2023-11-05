@@ -7,11 +7,10 @@ import tel3 from '../Header/logo.messangers/33.png';
 import tel4 from '../Header/logo.messangers/34.png'
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
-// import { UserButton } from "@clerk/clerk-react";
-// import { useClerk } from '@clerk/clerk-react';
 import { useNavigate } from 'react-router-dom';
 import user from'../Components/userpage/user.png';
 import Userfront from "@userfront/core";
+
 
 
 const Headerauth = () => {
@@ -29,12 +28,12 @@ const Headerauth = () => {
             <div className={s.logcont}>
                 <div className={s.q1}>
                     <div className={s.q01}>
-                        <a href='https://harmonyuchastka.ru/'>H</a>
-                        <a href='https://harmonyuchastka.ru/'>U</a>
+                    <Link to='/dashboard'><a>H</a> </Link>
+                    <Link to='/dashboard'><a>U</a> </Link>
                     </div>
                     <div className={s.q2}>
-                        <a href='https://harmonyuchastka.ru/'>Harmony</a>
-                        <a href='https://harmonyuchastka.ru/'>Uchastka</a>
+                    <Link to='/dashboard'><a>Harmony</a> </Link>
+                    <Link to='/dashboard'><a>Uchastka</a> </Link>
                     </div>
                 </div>
 
