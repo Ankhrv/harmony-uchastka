@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import Headerauth from './Header/Headerauth';
-import Menu from './Menu/Menu';
+import Menuauth from './Menu/Menuauth';
 import MenuBaner from './Baner/MenuBaner';
 import First from './Str/First';
 import Two from './Str2/Two';
@@ -30,7 +30,7 @@ const App2 = () => {
       </Helmet>
 
       <Headerauth />
-      <Menu />
+      <Menuauth />
       <MenuBaner />
       <First />
       <Two />
