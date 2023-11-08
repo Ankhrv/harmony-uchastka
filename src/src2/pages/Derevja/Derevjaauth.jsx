@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Dom from '../Contacts/Dom.png';
 import sux from '../Contacts/CoNtacts.module.css';
-import Headerauth from '../../../Header/Header';
+import Headerauth from '../../../Header/Headerauth';
 import Menuauth from '../../../Menu/Menuauth';
 import Seven from '../../../Str7/Str7';
 import WindowCallauth from '../../../WindowCall/WindowCallauth';

@@ -4,7 +4,7 @@ import Dom from '../Contacts/Dom.png';
 import sux from '../Contacts/CoNtacts.module.css';
 import Headerauth from '../../../Header/Headerauth';
 import Menuauth from '../../../Menu/Menuauth';
-import Seven from '../../../Str7/Str7';
+import Sevenauth from '../../../Str7/Str7auth';
 import WindowCallauth from '../../../WindowCall/WindowCallauth';
 import k from '../Novinky/Novinky.module.css';
 import { Helmet } from 'react-helmet';
@@ -26,7 +26,7 @@ const Obrabotkadannyh = () => {
            <Menuauth />
            <div className={sux.g1}>     <div className={sux.g}>
            <ul className={sux.breadcrumb}>
-  <li><Link to="/"><img className={sux.Dom} src={Dom}></img></Link></li>
+  <li><Link to="/dashboard"><img className={sux.Dom} src={Dom}></img></Link></li>
   <li><a className={sux.b}>Политика конфиденциальности</a></li>
   {/* <li><a href="#">Summer 15</a></li>
   <li>Italy</li> */}
@@ -85,7 +85,7 @@ const Obrabotkadannyh = () => {
 На данной странице сайта Вы можете ознакомиться с условиями пользовательского соглашение на обработку персональных данных на основании ст. 14 Федерального закона №152-ФЗ «О персональных данных».</p></div>
 
 
-           <Seven />
+           <Sevenauth />
            <WindowCallauth />
         </div>
       

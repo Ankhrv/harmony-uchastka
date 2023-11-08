@@ -4,7 +4,7 @@ import Dom from '../Contacts/Dom.png';
 import sux from '../Contacts/CoNtacts.module.css';
 import Headerauth from '../../../Header/Headerauth';
 import Menuauth from '../../../Menu/Menuauth';
-import Seven from '../../../Str7/Str7';
+import Sevenauth from '../../../Str7/Str7auth';
 import WindowCallauth from '../../../WindowCall/WindowCallauth';
 import k from './Novinky.module.css';
 import ScrollButton from '../../../ScrollButton/ScrollButton';
@@ -43,7 +43,7 @@ const Novinky = () => {
 </div>
 
 </div>
-           <Seven />
+           <Sevenauth />
            <ScrollButton />
            <WindowCallauth />
 

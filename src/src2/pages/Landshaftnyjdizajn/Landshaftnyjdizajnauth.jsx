@@ -2,13 +2,13 @@
 import React from "react";
 import Headerauth from '../../../Header/Headerauth';
 import Menuauth from '../../../Menu/Menuauth';
-import Seven from '../../../Str7/Str7';
+import Sevenauth from '../../../Str7/Str7auth';
 import WindowCallauth from '../../../WindowCall/WindowCallauth';
 import MenuBaner2 from './Baner/MenuBaner2';
 import { Link, NavLink } from "react-router-dom";
 import sux from '../Contacts/CoNtacts.module.css';
 import Three from '../../../Str3/Three';
-import For from '../../../Str4/For';
+import Forauth from '../../../Str4/Forauth';
 import Five from '../../../Str5/Str5';
 import Form from '../../../Form/Form';
 import Six from '../../../Six/Six';
@@ -37,7 +37,7 @@ const Landshaftnyjdizajn = () => {
 
 
             <For2/>
-            <For />
+            <Forauth />
             <div className={sux.g1}>   
            <div className={sux.g}>
            <ul className={sux.breadcrumb}>
@@ -50,7 +50,7 @@ const Landshaftnyjdizajn = () => {
             <Five />
             <Form />
             <Six />
-            <Seven />
+            <Sevenauth />
             <ScrollButton />
             <WindowCallauth />
         </div>
