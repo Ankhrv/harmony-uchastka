@@ -39,7 +39,7 @@ const Menu1 = () => {
                                     <li><a href='#'>Link</a></li>
                                 </ul> */}
                             </li>
-                            <li><NavLink to="/Actions" className={setActive8}>Озеленение и благоустройство</NavLink>
+                            <li><NavLink to="/Designnproject" className={setActive8}>Озеленение и благоустройство</NavLink>
                                 {/* <a href='#'>Озеленение и благоустройство</a>
                                 <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Дизайн-проект</a></li>

@@ -10,6 +10,7 @@ import Designnproject from './src2/pages/Designnproject/Designnproject';
 import Price from './src2/pages/Price/Price';
 import Priceauth from './src2/pages/Price/Priceauth';
 import Obslugivaniye from './src2/pages/Obslugivaniye/Obslugivaniye';
+import Obslugivaniyeauth from './src2/pages/Obslugivaniye/Obslugivaniyeauth';
 import CoNtacts from './src2/pages/Contacts/CoNtacts';
 import CoNtactsauth from './src2/pages/Contacts/CoNtactsauth';
 import Novinky from './src2/pages/Novinky/Novinky';
@@ -35,17 +36,14 @@ const App = () => {
       <Route path="/dashboard" element={<RequireAuth> <App2auth /> </RequireAuth>} /> 
       <Route path="/UserProfile" element={<UserProfile />} />
       <Route path="/login" element={<Profile />} />
-      <Route path="/UserProfileinfo" element={   
-      <RequireAuth>
-        <UserProfileinfo />
-      </RequireAuth>
-  } />
+      <Route path="/UserProfileinfo" element={<RequireAuth> <UserProfileinfo /> </RequireAuth>} />
       <Route path="/Contacts" element={<CoNtacts />} />
       <Route path="/Contactsauth" element={<CoNtactsauth />} />
-      <Route path="/Designnproject" element={<Designnproject />} />
+      <Route path="/Designnproject" element={<RequireAuth> <Designnproject /> </RequireAuth>} />
       <Route path="/Price" element={<Price />} />
       <Route path="/Priceauth" element={<Priceauth />} />
       <Route path="/Obslugivaniye" element={<Obslugivaniye />} />
+      <Route path="/Obslugivaniyeauth" element={<Obslugivaniyeauth />} />
       <Route path="/Novinky" element={<Novinky />} />
       <Route path="/Novinkyauth" element={<Novinkyauth />} />
       <Route path="/Rastenya" element={<Derevja />} />

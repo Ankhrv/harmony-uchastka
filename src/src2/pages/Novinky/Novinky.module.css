@@ -74,6 +74,17 @@ padding-right: 10px;
  
 }
 
+ /* ГЛАВНЫЙ КАРТИНКА*/
+ .Pic23{
+    margin-right: 10%;  
+    margin-top: 20px; 
+     width: 50%;
+     height: 360px;
+   background:url(../Obslugivaniye/auto.jpg);
+   background-size:cover;
+  
+ }
+
 
 
 .hh{ /*  КАРТИНКА ИЗ ВТОРОГО БЛОКА*/
@@ -137,6 +148,11 @@ padding-right: 10px;
 .Pic22{
     margin-right: 2.5%;
 }
+
+.Pic23{
+    margin-right: 2.5%;
+    background:url(../Obslugivaniye/auto.jpg);
+}
 }
 
 
@@ -162,8 +178,16 @@ padding-right: 10px;
         height: 340px;
       background:url(./Vodopad.jpg);
       background-size:cover;
-     
-  
+    
+    }
+
+    .Pic23{
+        margin-right: 2.5%;
+        width: 50%;
+        height: 340px;
+      background:url(../Obslugivaniye/auto.jpg);
+      background-size:cover;
+    
     }
 
         .Glav0{ /* ГЛАВНЫЙ */
@@ -191,6 +215,16 @@ padding-right: 10px;
             align-items: center;
             margin:0;
             }
+
+            
+            .Pic23{
+                width:auto;
+                 background-color: blueviolet;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin:0;
+                }
          
              .Glav0{
 
@@ -246,6 +280,17 @@ padding-right: 10px;
             margin-top: 0px;
             margin-bottom: 40px;
             }
+
+            .Pic23{
+                width:auto;
+                 /* background-color: blueviolet;   */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 0px;
+                margin-bottom: 40px;
+                }
+
             .hh1{
                 width: 25px;
             }
@@ -316,5 +361,12 @@ padding-right: 10px;
       height: 300px;
       background:url(./Vodopad.jpg);
       background-size:cover;
-    }       
+    }    
+    
+    .Pic23{
+        height: 300px;
+        background:url(../Obslugivaniye/auto.jpg);
+        background-size:cover;
+      } 
+
        }
